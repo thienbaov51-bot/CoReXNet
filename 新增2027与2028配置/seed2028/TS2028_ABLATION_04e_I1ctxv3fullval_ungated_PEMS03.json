@@ -1,0 +1,22 @@
+{
+  "run_id": "TS2028_ABLATION_04e_I1ctxv3fullval_ungated_PEMS03",
+  "model": "I1_context_v3",
+  "dataset": "PEMS03",
+  "phase": "full_validation",
+  "evaluate_test": false,
+  "seed": 2028,
+  "length": 96,
+  "horizon": 96,
+  "dim": 256,
+  "ffn_dim": 1024,
+  "layers": 2,
+  "dropout": 0.0,
+  "lr": 0.001,
+  "epochs": 30,
+  "patience": 7,
+  "amp": true,
+  "protocol_revision": "paper5_v1",
+  "i1_context_v3_mode": "ungated",
+  "i1_context_v2_iterations": 6,
+  "i1_context_v2_strength_init": 0.5
+}

@@ -1,0 +1,2445 @@
+{
+  "runs": [
+    {
+      "dataset": "PEMS04",
+      "group": "B0",
+      "label": "基准 B0",
+      "run_id": "01_B0full_PEMS04",
+      "actual_role": "B0",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS04\\config.json",
+        "sha256": "166f4235e424b1b317163d99cc92f6a76f7a43a6184b2c6aaa3ef530a87d2f55",
+        "bytes": 307
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS04\\metrics.json",
+        "sha256": "209945b130fa59b81dbc1759c52f334b66eaceeb2aef5d04f58f6a4272fbc3bf",
+        "bytes": 17726
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS04\\metrics.json",
+        "sha256": "209945b130fa59b81dbc1759c52f334b66eaceeb2aef5d04f58f6a4272fbc3bf",
+        "bytes": 17726
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "39f1fd3d59bcf9a34451567e93c3d4972ec81e812b3bf169c48225e451ac2ab3",
+      "data_sha256": "eb59be7f305dd439429f5e10d726a4c252dd086b3e97ae735c92e4da1db69a1b",
+      "channels": 307,
+      "windows": 3304,
+      "elements": 97375488,
+      "parameters": 1101664,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS04\\code_snapshot\\train.py",
+          "sha256": "674e12a2caf98189369420e3d6ba41ded818d3582eb445672e123c28c414c8d9",
+          "bytes": 10539
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS04\\code_snapshot\\models.py",
+          "sha256": "42e7f75d55fee6e5872359a964948d4922837db20b5524aaeca51d5023201453",
+          "bytes": 1663
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS04\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        }
+      ],
+      "shared_code_set": "01_基准B0",
+      "shared_source_folder": "03_代码/消融/01_基准B0",
+      "package_config": "04_实验配置/消融/01_B0full_PEMS04/config.json"
+    },
+    {
+      "dataset": "PEMS04",
+      "group": "I1",
+      "label": "B0 + M1 / 原设计 I1",
+      "run_id": "04f_I1ctxv7fullval_mean_zero_PEMS04",
+      "actual_role": "I1",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\config.json",
+        "sha256": "1ebcacb9e1327b8fd593c025c1aab30776846a41e0383786ec7b320dbebd5aaf",
+        "bytes": 482
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\frozen_test.json",
+        "sha256": "313be42fe47d475a016dc53b9e68eccbc3a8db34c197a81b12b35c48d20df79d",
+        "bytes": 19295
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\metrics.json",
+        "sha256": "8ba39fbc6bff300672cec7b6f69accb2ee029c45f4fee8e26ef5aeb186e3e950",
+        "bytes": 11166
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "1c26a6fb87e0ca2db94ec73274b93aead1035e4dcca218bcf7d98ed5dfc9d01b",
+      "data_sha256": "eb59be7f305dd439429f5e10d726a4c252dd086b3e97ae735c92e4da1db69a1b",
+      "channels": 307,
+      "windows": 3304,
+      "elements": 97375488,
+      "parameters": 1101665,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\code_snapshot\\models.py",
+          "sha256": "2a3a8958fb0766dbf69f1095a4b7b5b68b0b868b1e46253298ce6c319a6cbce9",
+          "bytes": 2964
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\code_snapshot\\i1_context_v7.py",
+          "sha256": "106a213719e2c4e26bbe333118409479e3a38756ad5f08141facbbd0edc942e8",
+          "bytes": 10252
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "02_模块一均值对比重构",
+      "shared_source_folder": "03_代码/消融/02_模块一均值对比重构",
+      "package_config": "04_实验配置/消融/04f_I1ctxv7fullval_mean_zero_PEMS04/config.json"
+    },
+    {
+      "dataset": "PEMS04",
+      "group": "I2",
+      "label": "B0 + M1 + M2 / 原设计 I2",
+      "run_id": "08e_I2stablefull_no_subtraction_r003_PEMS04",
+      "actual_role": "I2",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\config.json",
+        "sha256": "9e2e5464400d6b4063f2896cc59c507e701820c45c1ed49d7e00c401dcbea028",
+        "bytes": 1163
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\frozen_test.json",
+        "sha256": "6571bff56ae6c5a2f7e33c0236d139187542523a6678a48dee8f670a3be074f3",
+        "bytes": 38880
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\metrics.json",
+        "sha256": "a4d741c1f88651bed0d4215ebfa7dc797d847a39f3255c626f1fb870293699bb",
+        "bytes": 12836
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "20a1bf33cad77722a424d7283fa38f71fbc2eb6bdd3693ad1cce76fa52c32d01",
+      "data_sha256": "eb59be7f305dd439429f5e10d726a4c252dd086b3e97ae735c92e4da1db69a1b",
+      "channels": 307,
+      "windows": 3304,
+      "elements": 97375488,
+      "parameters": 1101666,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\models.py",
+          "sha256": "9c8de8e3d3d36b0256d6f32889de2fab3aa5c3adb0c1a30c88687f0c9bd3771d",
+          "bytes": 3992
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "03_模块二固定折线字典",
+      "shared_source_folder": "03_代码/消融/03_模块二固定折线字典",
+      "package_config": "04_实验配置/消融/08e_I2stablefull_no_subtraction_r003_PEMS04/config.json"
+    },
+    {
+      "dataset": "PEMS04",
+      "group": "I3",
+      "label": "OURS 完整模型",
+      "run_id": "E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04",
+      "actual_role": "absolute_response",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\config.json",
+        "sha256": "800162375b2fe291dc5738e2e5efb0bc79ee8a725df8ae96c9cd24e9649caedd",
+        "bytes": 1770
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\extension6h_strong_frozen_test.json",
+        "sha256": "f4e4bab4ea85beebb042c0f05be852fb39bd61215ece7bd9d66e1cda090ee370",
+        "bytes": 41695
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\metrics.json",
+        "sha256": "02a1b94cecb4f2724e50af89b650d54571f5311254b0cab39f16e3f6e64ad47a",
+        "bytes": 23984
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "dee81789da04e7a6f56a0985e4f0baea0eb173c1146e497c44cdb95eda1abbd9",
+      "data_sha256": "eb59be7f305dd439429f5e10d726a4c252dd086b3e97ae735c92e4da1db69a1b",
+      "channels": 307,
+      "windows": 3304,
+      "elements": 97375488,
+      "parameters": 1113058,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\train.py",
+          "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0",
+          "bytes": 10712
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\models.py",
+          "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0",
+          "bytes": 8480
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\i3_response_residual_exchange.py",
+          "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760",
+          "bytes": 5646
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "04_最新三模块及响应替换",
+      "shared_source_folder": "03_代码/消融/04_最新三模块及响应替换",
+      "package_config": "04_实验配置/消融/E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04/config.json"
+    },
+    {
+      "dataset": "PEMS04",
+      "group": "I1_PCA",
+      "label": "PCA替换",
+      "run_id": "04e_I1ctxv3fullval_ungated_PEMS04",
+      "actual_role": "I1_PCA",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\config.json",
+        "sha256": "e0ec745fe56e8959142ab919f6b730dab5340743b6509fb203f60113c72c263a",
+        "bytes": 478
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\frozen_test.json",
+        "sha256": "76ee7eec2fc5e72146c5c1993ab2d27a64a976aca880a335a5f0e3fe3256867f",
+        "bytes": 19065
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\metrics.json",
+        "sha256": "d8138af56eb28caa76479bb1a39c7559bb78c4d1301c66e28e8eb015b77a82d7",
+        "bytes": 10939
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "dad99bf67b4b158f4f3cb410666123ec85d999e25a38919acabee337602d3583",
+      "data_sha256": "eb59be7f305dd439429f5e10d726a4c252dd086b3e97ae735c92e4da1db69a1b",
+      "channels": 307,
+      "windows": 3304,
+      "elements": 97375488,
+      "parameters": 1101665,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\code_snapshot\\models.py",
+          "sha256": "474eaed76f79ffe0aebb5ae6008fd5eacf13ea7dd852271fa7f257014b43866c",
+          "bytes": 2726
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\code_snapshot\\i1_context_v3.py",
+          "sha256": "56781ed0d0335eaf4ce3d11132aae19b6ecfd53b33c4a5658af1d04f68ac7e3b",
+          "bytes": 4974
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "05_模块一PCA替换",
+      "shared_source_folder": "03_代码/消融/05_模块一PCA替换",
+      "package_config": "04_实验配置/消融/04e_I1ctxv3fullval_ungated_PEMS04/config.json"
+    },
+    {
+      "dataset": "PEMS04",
+      "group": "I1_MEAN_ADDITIVE",
+      "label": "均值加性替换",
+      "run_id": "04g_I1commonfull_mean_additive_PEMS04",
+      "actual_role": "I1_MEAN_ADDITIVE",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\config.json",
+        "sha256": "9d24d007bbceade5bf23b9edb19ab64194e37629e37e24988cb6df58a6bcfe20",
+        "bytes": 487
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\frozen_test.json",
+        "sha256": "1c198eb0c3f65b27b86bfb9079440ad1f544cd0da3b0ca895bb2f0c8186ee504",
+        "bytes": 19496
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\metrics.json",
+        "sha256": "a2ef6fe87bdb3be872235224a16c4152c28dbdc70a3ece4c3d1171b15f46d27e",
+        "bytes": 11349
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "501a2997c36a265772639498ceb924e978aab25f0ab3da6dec51a62dab2cba01",
+      "data_sha256": "eb59be7f305dd439429f5e10d726a4c252dd086b3e97ae735c92e4da1db69a1b",
+      "channels": 307,
+      "windows": 3304,
+      "elements": 97375488,
+      "parameters": 1101665,
+      "epochs_run": 30,
+      "best_epoch": 29,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\code_snapshot\\models.py",
+          "sha256": "69a0b5ac72e21c90a076b28cc02dec323a335d4356b358cb2d126977867e8132",
+          "bytes": 3208
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "06_模块一均值加性替换",
+      "shared_source_folder": "03_代码/消融/06_模块一均值加性替换",
+      "package_config": "04_实验配置/消融/04g_I1commonfull_mean_additive_PEMS04/config.json"
+    },
+    {
+      "dataset": "PEMS04",
+      "group": "I2_ADAPTIVE",
+      "label": "自适应折线",
+      "run_id": "08h_I2addfull_adaptive_hinge_r003_PEMS04",
+      "actual_role": "I2_ADAPTIVE",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\config.json",
+        "sha256": "70d9614627861daf4c28e1b8840d338c16a406a1d900a5f48b933cf9a55c61da",
+        "bytes": 1017
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\frozen_test.json",
+        "sha256": "8e7bf5801012033278960728748e0c2561ccd21155013a82b1d1cda285cdbefb",
+        "bytes": 39496
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\metrics.json",
+        "sha256": "32f268ec41ad81d39bc76f717ea2ab842a39b5c4ec63428abc27efa69cdb2754",
+        "bytes": 13472
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "d0c733809ad0050906103e613ffe54ab4b9b08384b4f5fed10575dfc00098562",
+      "data_sha256": "eb59be7f305dd439429f5e10d726a4c252dd086b3e97ae735c92e4da1db69a1b",
+      "channels": 307,
+      "windows": 3304,
+      "elements": 97375488,
+      "parameters": 1101666,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\models.py",
+          "sha256": "2050be20f2e60bfed734d3a8611a8d042f19da67f2847d2405105c45460b16f2",
+          "bytes": 4129
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "07_模块二自适应及Hermite替换",
+      "shared_source_folder": "03_代码/消融/07_模块二自适应及Hermite替换",
+      "package_config": "04_实验配置/消融/08h_I2addfull_adaptive_hinge_r003_PEMS04/config.json"
+    },
+    {
+      "dataset": "PEMS04",
+      "group": "I2_HERMITE",
+      "label": "Hermite替换",
+      "run_id": "08h_I2addfull_hermite_r003_PEMS04",
+      "actual_role": "I2_HERMITE",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS04\\config.json",
+        "sha256": "b4f33b70356128faf99cfbe306a4840d7d99a574dcb63a6c09de79b10b95d64e",
+        "bytes": 1012
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS04\\frozen_test.json",
+        "sha256": "5031a19095c31b66b27ca840b1bdb42d5451e6c436561ed533b3d5d05a26f36e",
+        "bytes": 39492
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS04\\metrics.json",
+        "sha256": "08598e2f907aceae166e6447949dc8b0481f6e01f3717c133bc2579839bf520d",
+        "bytes": 13460
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "b4ede37e4ac6cde7152e48d009d2b8f1357eb8b14c4cd31f587d509927a299e7",
+      "data_sha256": "eb59be7f305dd439429f5e10d726a4c252dd086b3e97ae735c92e4da1db69a1b",
+      "channels": 307,
+      "windows": 3304,
+      "elements": 97375488,
+      "parameters": 1101666,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS04\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS04\\code_snapshot\\models.py",
+          "sha256": "2050be20f2e60bfed734d3a8611a8d042f19da67f2847d2405105c45460b16f2",
+          "bytes": 4129
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS04\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS04\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS04\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS04\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "07_模块二自适应及Hermite替换",
+      "shared_source_folder": "03_代码/消融/07_模块二自适应及Hermite替换",
+      "package_config": "04_实验配置/消融/08h_I2addfull_hermite_r003_PEMS04/config.json"
+    },
+    {
+      "dataset": "PEMS04",
+      "group": "I3_CONTROL1",
+      "label": "有符号响应",
+      "run_id": "E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04",
+      "actual_role": "signed_response",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04\\config.json",
+        "sha256": "9052a9550a3a7d6351af16b2116fc58a13373d9b5e459fa77950f0ce330d67a3",
+        "bytes": 1766
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04\\extension6h_strong_frozen_test.json",
+        "sha256": "aaa2191f9a4897bf094d944d18e9394ed75f7e4d2be4b304939c620d3cd7f170",
+        "bytes": 41697
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04\\metrics.json",
+        "sha256": "be7db20b7360811b12369d7df9fdeb0f54ac2c1c3d4e23030f8cb997ed9a5ed3",
+        "bytes": 23979
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "6807a2655bc8d4733bdeff01095fec24c5fdd9d34888a34140e8dd18dfec6c8f",
+      "data_sha256": "eb59be7f305dd439429f5e10d726a4c252dd086b3e97ae735c92e4da1db69a1b",
+      "channels": 307,
+      "windows": 3304,
+      "elements": 97375488,
+      "parameters": 1113058,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04\\code_snapshot\\train.py",
+          "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0",
+          "bytes": 10712
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04\\code_snapshot\\models.py",
+          "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0",
+          "bytes": 8480
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04\\code_snapshot\\i3_response_residual_exchange.py",
+          "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760",
+          "bytes": 5646
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "04_最新三模块及响应替换",
+      "shared_source_folder": "03_代码/消融/04_最新三模块及响应替换",
+      "package_config": "04_实验配置/消融/E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS04/config.json"
+    },
+    {
+      "dataset": "PEMS04",
+      "group": "I3_CONTROL2",
+      "label": "错配响应",
+      "run_id": "E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04",
+      "actual_role": "shuffled_response",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04\\config.json",
+        "sha256": "a76c3ff8b7e987ada727ac72e3a91be4cfbd0a20a6210de953967482952c35d4",
+        "bytes": 1770
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04\\extension6h_strong_frozen_test.json",
+        "sha256": "4b55e020bae8fcd401920229656a1b7bac50b675091da24d74e91615ac6d2525",
+        "bytes": 41670
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04\\metrics.json",
+        "sha256": "c2f733a5d6c0e1d1d515ad5ef560d080ecd3d9cf5698b929db3113bf61f2778a",
+        "bytes": 23955
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "9ff57ba113b461aab4558c46342392ba81cfc04c7e394eaf316171a05cfa1cec",
+      "data_sha256": "eb59be7f305dd439429f5e10d726a4c252dd086b3e97ae735c92e4da1db69a1b",
+      "channels": 307,
+      "windows": 3304,
+      "elements": 97375488,
+      "parameters": 1113058,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04\\code_snapshot\\train.py",
+          "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0",
+          "bytes": 10712
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04\\code_snapshot\\models.py",
+          "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0",
+          "bytes": 8480
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04\\code_snapshot\\i3_response_residual_exchange.py",
+          "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760",
+          "bytes": 5646
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "04_最新三模块及响应替换",
+      "shared_source_folder": "03_代码/消融/04_最新三模块及响应替换",
+      "package_config": "04_实验配置/消融/E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS04/config.json"
+    },
+    {
+      "dataset": "PEMS03",
+      "group": "B0",
+      "label": "基准 B0",
+      "run_id": "01_B0full_PEMS03",
+      "actual_role": "B0",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS03\\config.json",
+        "sha256": "29310eb2422086672fae65c4851b70a97b2f7b1f71044d4b9088a8756518818c",
+        "bytes": 307
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS03\\metrics.json",
+        "sha256": "ce326da24de2ed9704af142a9434bf5e21ad1dfe9731da54075a046037439ca6",
+        "bytes": 20551
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS03\\metrics.json",
+        "sha256": "ce326da24de2ed9704af142a9434bf5e21ad1dfe9731da54075a046037439ca6",
+        "bytes": 20551
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "3bab83bb7dbaff534482eb74710b4493376b76c403f02a73dc28972eb20bc4fb",
+      "data_sha256": "0ec01e19ff89bbbd1ad270b25a4cb7df2bd7c516f0ec5137b2f4dceb8370e5b4",
+      "channels": 358,
+      "windows": 5147,
+      "elements": 176892096,
+      "parameters": 1101664,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS03\\code_snapshot\\train.py",
+          "sha256": "674e12a2caf98189369420e3d6ba41ded818d3582eb445672e123c28c414c8d9",
+          "bytes": 10539
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS03\\code_snapshot\\models.py",
+          "sha256": "42e7f75d55fee6e5872359a964948d4922837db20b5524aaeca51d5023201453",
+          "bytes": 1663
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS03\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        }
+      ],
+      "shared_code_set": "01_基准B0",
+      "shared_source_folder": "03_代码/消融/01_基准B0",
+      "package_config": "04_实验配置/消融/01_B0full_PEMS03/config.json"
+    },
+    {
+      "dataset": "PEMS03",
+      "group": "I1",
+      "label": "B0 + M1 / 原设计 I1",
+      "run_id": "04f_I1ctxv7fullval_mean_zero_PEMS03",
+      "actual_role": "I1",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS03\\config.json",
+        "sha256": "97bce2b3165ca0d02bfc7ac49b08a579f14d5cabfc78517390122b68bbfcd575",
+        "bytes": 482
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS03\\frozen_test.json",
+        "sha256": "3445dae574e989121baa1ccc14e265b307ea6d214fbe39714833a43e4b476820",
+        "bytes": 22107
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS03\\metrics.json",
+        "sha256": "a97720fb7aaa7685ff77398b3c924be8b3e1e68db47aab873b0f27dc3b3a20f3",
+        "bytes": 12569
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "ac963d846da7723a4e1b94e63de5b1560e7f2a6de3bf96c2e055c1703da05f92",
+      "data_sha256": "0ec01e19ff89bbbd1ad270b25a4cb7df2bd7c516f0ec5137b2f4dceb8370e5b4",
+      "channels": 358,
+      "windows": 5147,
+      "elements": 176892096,
+      "parameters": 1101665,
+      "epochs_run": 30,
+      "best_epoch": 26,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS03\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS03\\code_snapshot\\models.py",
+          "sha256": "2a3a8958fb0766dbf69f1095a4b7b5b68b0b868b1e46253298ce6c319a6cbce9",
+          "bytes": 2964
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS03\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS03\\code_snapshot\\i1_context_v7.py",
+          "sha256": "106a213719e2c4e26bbe333118409479e3a38756ad5f08141facbbd0edc942e8",
+          "bytes": 10252
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS03\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "02_模块一均值对比重构",
+      "shared_source_folder": "03_代码/消融/02_模块一均值对比重构",
+      "package_config": "04_实验配置/消融/04f_I1ctxv7fullval_mean_zero_PEMS03/config.json"
+    },
+    {
+      "dataset": "PEMS03",
+      "group": "I2",
+      "label": "B0 + M1 + M2 / 原设计 I2",
+      "run_id": "08e_I2stablefull_no_subtraction_r003_PEMS03",
+      "actual_role": "I2",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS03\\config.json",
+        "sha256": "3a73f0cd445e1049fb829ab744dd7de12a23e19f5521b7fbc55be828f6b5c265",
+        "bytes": 1163
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS03\\frozen_test.json",
+        "sha256": "d7904d0e48a07e12b0d21246ece3ae4835e456c49a03f14005961e62b227e1fd",
+        "bytes": 44454
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS03\\metrics.json",
+        "sha256": "5cf9033d27e9d4832234e582c8e79790e96ba90db6a4b1bf4e8761e359ee76dd",
+        "bytes": 14257
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "039f4f57c5977b09c52fbebfe81028e7346af598b8ca710f6dfa6732996c2dfd",
+      "data_sha256": "0ec01e19ff89bbbd1ad270b25a4cb7df2bd7c516f0ec5137b2f4dceb8370e5b4",
+      "channels": 358,
+      "windows": 5147,
+      "elements": 176892096,
+      "parameters": 1101666,
+      "epochs_run": 30,
+      "best_epoch": 26,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS03\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS03\\code_snapshot\\models.py",
+          "sha256": "9c8de8e3d3d36b0256d6f32889de2fab3aa5c3adb0c1a30c88687f0c9bd3771d",
+          "bytes": 3992
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS03\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS03\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS03\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS03\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS03\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "03_模块二固定折线字典",
+      "shared_source_folder": "03_代码/消融/03_模块二固定折线字典",
+      "package_config": "04_实验配置/消融/08e_I2stablefull_no_subtraction_r003_PEMS03/config.json"
+    },
+    {
+      "dataset": "PEMS03",
+      "group": "I3",
+      "label": "OURS 完整模型",
+      "run_id": "E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03",
+      "actual_role": "absolute_response",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03\\config.json",
+        "sha256": "f4eca9a5901356e8b45cd1b1895c0bacc81de1d197efc9fd6bfaee63c314eda8",
+        "bytes": 1770
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03\\extension6h_strong_frozen_test.json",
+        "sha256": "92ea9b9a4c3543f8c45dba85a55e4f2c56dd9921db55406cd15d640b173b90d5",
+        "bytes": 45884
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03\\metrics.json",
+        "sha256": "06bddb18a5bae3169454f9102d75b9b6416c063b0081eeca46615592dccad3a1",
+        "bytes": 25400
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "ff06cc7da098f77baeb851a2d7e189bc4760ca05ec75489190268bf617b7e502",
+      "data_sha256": "0ec01e19ff89bbbd1ad270b25a4cb7df2bd7c516f0ec5137b2f4dceb8370e5b4",
+      "channels": 358,
+      "windows": 5147,
+      "elements": 176892096,
+      "parameters": 1113058,
+      "epochs_run": 30,
+      "best_epoch": 25,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03\\code_snapshot\\train.py",
+          "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0",
+          "bytes": 10712
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03\\code_snapshot\\models.py",
+          "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0",
+          "bytes": 8480
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03\\code_snapshot\\i3_response_residual_exchange.py",
+          "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760",
+          "bytes": 5646
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "04_最新三模块及响应替换",
+      "shared_source_folder": "03_代码/消融/04_最新三模块及响应替换",
+      "package_config": "04_实验配置/消融/E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS03/config.json"
+    },
+    {
+      "dataset": "PEMS03",
+      "group": "I1_PCA",
+      "label": "PCA替换",
+      "run_id": "04e_I1ctxv3fullval_ungated_PEMS03",
+      "actual_role": "I1_PCA",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS03\\config.json",
+        "sha256": "256739dbf94bed39ccfa6265017a19b94f129cc9249bb1e74ac549da21890749",
+        "bytes": 478
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS03\\frozen_test.json",
+        "sha256": "42478ac2b47d02a9af179c9966a23bc9ef15697af8ee1573a1ee1a627077c216",
+        "bytes": 21925
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS03\\metrics.json",
+        "sha256": "abbfa79faefc600ec1a048ed689850683a689ea1f0ed9fe04340b0cd200ef80a",
+        "bytes": 12387
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "13b1b66fd2dc381e9ddbdfa0bfce9ec0d061bcf0c40a98347c0b230755d15642",
+      "data_sha256": "0ec01e19ff89bbbd1ad270b25a4cb7df2bd7c516f0ec5137b2f4dceb8370e5b4",
+      "channels": 358,
+      "windows": 5147,
+      "elements": 176892096,
+      "parameters": 1101665,
+      "epochs_run": 30,
+      "best_epoch": 28,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS03\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS03\\code_snapshot\\models.py",
+          "sha256": "474eaed76f79ffe0aebb5ae6008fd5eacf13ea7dd852271fa7f257014b43866c",
+          "bytes": 2726
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS03\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS03\\code_snapshot\\i1_context_v3.py",
+          "sha256": "56781ed0d0335eaf4ce3d11132aae19b6ecfd53b33c4a5658af1d04f68ac7e3b",
+          "bytes": 4974
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS03\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "05_模块一PCA替换",
+      "shared_source_folder": "03_代码/消融/05_模块一PCA替换",
+      "package_config": "04_实验配置/消融/04e_I1ctxv3fullval_ungated_PEMS03/config.json"
+    },
+    {
+      "dataset": "PEMS03",
+      "group": "I1_MEAN_ADDITIVE",
+      "label": "均值加性替换",
+      "run_id": "04g_I1commonfull_mean_additive_PEMS03",
+      "actual_role": "I1_MEAN_ADDITIVE",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS03\\config.json",
+        "sha256": "e622575ff65ae7454d275cc85ab1e08cdcdb1bed53089ccc2424bc34298f7b32",
+        "bytes": 487
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS03\\frozen_test.json",
+        "sha256": "8454e247193fc17b19dbf770969175c06900b6909139d4c9754776061f23eaf8",
+        "bytes": 22282
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS03\\metrics.json",
+        "sha256": "cb10379cc3fe273421e067032e3fda27898f1ef9c0f9315c367af9b707cb01f1",
+        "bytes": 12755
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "7f203110d80fbdc56d7bbac7d6408d430189f7b1fdf9f89088ded9ffcafe6bd9",
+      "data_sha256": "0ec01e19ff89bbbd1ad270b25a4cb7df2bd7c516f0ec5137b2f4dceb8370e5b4",
+      "channels": 358,
+      "windows": 5147,
+      "elements": 176892096,
+      "parameters": 1101665,
+      "epochs_run": 30,
+      "best_epoch": 29,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS03\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS03\\code_snapshot\\models.py",
+          "sha256": "69a0b5ac72e21c90a076b28cc02dec323a335d4356b358cb2d126977867e8132",
+          "bytes": 3208
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS03\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS03\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS03\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "06_模块一均值加性替换",
+      "shared_source_folder": "03_代码/消融/06_模块一均值加性替换",
+      "package_config": "04_实验配置/消融/04g_I1commonfull_mean_additive_PEMS03/config.json"
+    },
+    {
+      "dataset": "PEMS03",
+      "group": "I2_ADAPTIVE",
+      "label": "自适应折线",
+      "run_id": "08h_I2addfull_adaptive_hinge_r003_PEMS03",
+      "actual_role": "I2_ADAPTIVE",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS03\\config.json",
+        "sha256": "8db4fbd3f8182aa504029d9f1845e1e3257825d9f774f9243d351695b48ea569",
+        "bytes": 1017
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS03\\frozen_test.json",
+        "sha256": "fb1c69e7b5984781c194287b81f8a0ae94b52e62883c5e99ad6b4208b63b0623",
+        "bytes": 45103
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS03\\metrics.json",
+        "sha256": "050b13d2576b1b90364348080249549fdbd28f196925224a4d0f8784d7f4aaac",
+        "bytes": 14876
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "3f21cfd5f61ee11c07b8683a4e30b1b0dff8c8405c52f7457992e9f53981ce6e",
+      "data_sha256": "0ec01e19ff89bbbd1ad270b25a4cb7df2bd7c516f0ec5137b2f4dceb8370e5b4",
+      "channels": 358,
+      "windows": 5147,
+      "elements": 176892096,
+      "parameters": 1101666,
+      "epochs_run": 30,
+      "best_epoch": 26,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS03\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS03\\code_snapshot\\models.py",
+          "sha256": "2050be20f2e60bfed734d3a8611a8d042f19da67f2847d2405105c45460b16f2",
+          "bytes": 4129
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS03\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS03\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS03\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS03\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS03\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "07_模块二自适应及Hermite替换",
+      "shared_source_folder": "03_代码/消融/07_模块二自适应及Hermite替换",
+      "package_config": "04_实验配置/消融/08h_I2addfull_adaptive_hinge_r003_PEMS03/config.json"
+    },
+    {
+      "dataset": "PEMS03",
+      "group": "I2_HERMITE",
+      "label": "Hermite替换",
+      "run_id": "08h_I2addfull_hermite_r003_PEMS03",
+      "actual_role": "I2_HERMITE",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS03\\config.json",
+        "sha256": "5328b5a0bb153c1ca562953ea8cdc662642b2d8b5ff4cda910085fcaf6e45dfd",
+        "bytes": 1012
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS03\\frozen_test.json",
+        "sha256": "19b671fc1aefb3f832b6c905b9686384993ba1194c31cb911d0ea9eabb64db31",
+        "bytes": 45078
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS03\\metrics.json",
+        "sha256": "cdd01217d7edc13f8cc786db604037604834ae63de69294be2de54d70d156234",
+        "bytes": 14862
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "208ad938ed083f7ad7e627813b40f32c864e2b7a055d6985ddb800c42cae6234",
+      "data_sha256": "0ec01e19ff89bbbd1ad270b25a4cb7df2bd7c516f0ec5137b2f4dceb8370e5b4",
+      "channels": 358,
+      "windows": 5147,
+      "elements": 176892096,
+      "parameters": 1101666,
+      "epochs_run": 30,
+      "best_epoch": 26,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS03\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS03\\code_snapshot\\models.py",
+          "sha256": "2050be20f2e60bfed734d3a8611a8d042f19da67f2847d2405105c45460b16f2",
+          "bytes": 4129
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS03\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS03\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS03\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS03\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS03\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "07_模块二自适应及Hermite替换",
+      "shared_source_folder": "03_代码/消融/07_模块二自适应及Hermite替换",
+      "package_config": "04_实验配置/消融/08h_I2addfull_hermite_r003_PEMS03/config.json"
+    },
+    {
+      "dataset": "PEMS03",
+      "group": "I3_CONTROL1",
+      "label": "有符号响应",
+      "run_id": "E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03",
+      "actual_role": "signed_response",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03\\config.json",
+        "sha256": "a9211c7f55b8f262b88aad65d89637e4a5b9b4c9706f987b80b8d41cf7e79062",
+        "bytes": 1766
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03\\extension6h_strong_frozen_test.json",
+        "sha256": "ea92b8867e55598f79be8a060e4488b55fbeaedabc4b85242ebfa26be71778a4",
+        "bytes": 45861
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03\\metrics.json",
+        "sha256": "9c223f02adf5b64dd3ac62b9e971951762bb755816ad86b01c971a682bd8f974",
+        "bytes": 25357
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "68897af4389a929068c02caaa7e5988435a6e784e0e9033cd9c3525de80d9785",
+      "data_sha256": "0ec01e19ff89bbbd1ad270b25a4cb7df2bd7c516f0ec5137b2f4dceb8370e5b4",
+      "channels": 358,
+      "windows": 5147,
+      "elements": 176892096,
+      "parameters": 1113058,
+      "epochs_run": 30,
+      "best_epoch": 26,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03\\code_snapshot\\train.py",
+          "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0",
+          "bytes": 10712
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03\\code_snapshot\\models.py",
+          "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0",
+          "bytes": 8480
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03\\code_snapshot\\i3_response_residual_exchange.py",
+          "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760",
+          "bytes": 5646
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "04_最新三模块及响应替换",
+      "shared_source_folder": "03_代码/消融/04_最新三模块及响应替换",
+      "package_config": "04_实验配置/消融/E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS03/config.json"
+    },
+    {
+      "dataset": "PEMS03",
+      "group": "I3_CONTROL2",
+      "label": "错配响应",
+      "run_id": "E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03",
+      "actual_role": "shuffled_response",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03\\config.json",
+        "sha256": "9b8eacde4bea35d59253850dcfad792ca98697e582e9e7f9e80adc5189a556cf",
+        "bytes": 1770
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03\\extension6h_strong_frozen_test.json",
+        "sha256": "79face4086fbd90d3ff9e049f422725dd356aab80558dc934a8c32b95cf7d53a",
+        "bytes": 45869
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03\\metrics.json",
+        "sha256": "7c5818d4bf24e3f87ba1f8b28ff4317c734c1d36fd818cd332a32819fb2838b5",
+        "bytes": 25392
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "26e216d8b125245f3c400b481f71a2f7c9a6206c23a87180f49a77514c6b0ffd",
+      "data_sha256": "0ec01e19ff89bbbd1ad270b25a4cb7df2bd7c516f0ec5137b2f4dceb8370e5b4",
+      "channels": 358,
+      "windows": 5147,
+      "elements": 176892096,
+      "parameters": 1113058,
+      "epochs_run": 30,
+      "best_epoch": 26,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03\\code_snapshot\\train.py",
+          "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0",
+          "bytes": 10712
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03\\code_snapshot\\models.py",
+          "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0",
+          "bytes": 8480
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03\\code_snapshot\\i3_response_residual_exchange.py",
+          "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760",
+          "bytes": 5646
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "04_最新三模块及响应替换",
+      "shared_source_folder": "03_代码/消融/04_最新三模块及响应替换",
+      "package_config": "04_实验配置/消融/E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS03/config.json"
+    },
+    {
+      "dataset": "PEMS08",
+      "group": "B0",
+      "label": "基准 B0",
+      "run_id": "01_B0full_PEMS08",
+      "actual_role": "B0",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS08\\config.json",
+        "sha256": "db16e25a39e47bcca7c2b9986e4d84ec5d69a969374fa786b958f2b5813c8ff9",
+        "bytes": 307
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS08\\metrics.json",
+        "sha256": "6fddf0c66d7fd82791569a82cf5a644d5c6a2cdaae97c0cdbe895f2ddaca55f8",
+        "bytes": 10621
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS08\\metrics.json",
+        "sha256": "6fddf0c66d7fd82791569a82cf5a644d5c6a2cdaae97c0cdbe895f2ddaca55f8",
+        "bytes": 10621
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "f269f1351d8002da8661ca1bd20cc9ae3e60f1adad6acbe26bbbb408684f837b",
+      "data_sha256": "00b2d459111ad5d35c966781dd661800e97f390ce3bd37b6b4efb53fc896eda8",
+      "channels": 170,
+      "windows": 3477,
+      "elements": 56744640,
+      "parameters": 1101664,
+      "epochs_run": 30,
+      "best_epoch": 29,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS08\\code_snapshot\\train.py",
+          "sha256": "674e12a2caf98189369420e3d6ba41ded818d3582eb445672e123c28c414c8d9",
+          "bytes": 10539
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS08\\code_snapshot\\models.py",
+          "sha256": "42e7f75d55fee6e5872359a964948d4922837db20b5524aaeca51d5023201453",
+          "bytes": 1663
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS08\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        }
+      ],
+      "shared_code_set": "01_基准B0",
+      "shared_source_folder": "03_代码/消融/01_基准B0",
+      "package_config": "04_实验配置/消融/01_B0full_PEMS08/config.json"
+    },
+    {
+      "dataset": "PEMS08",
+      "group": "I1",
+      "label": "B0 + M1 / 原设计 I1",
+      "run_id": "04f_I1ctxv7fullval_mean_zero_PEMS08",
+      "actual_role": "I1",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS08\\config.json",
+        "sha256": "ce46052e2e0f60d4f7fc939ea70c7228bad312808fd124ce2777e092d899e8d6",
+        "bytes": 482
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS08\\frozen_test.json",
+        "sha256": "d2f303727c5b06970819e496efa2f3552519a6bad9457246529d0d269dbfe1a7",
+        "bytes": 12105
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS08\\metrics.json",
+        "sha256": "c0c1ced959d8f997201552c5ef04173aff81c87bf60e4962b76dd6311300661e",
+        "bytes": 7560
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "1e966349ff2aa5e2fa1aa049727b3ff76b064aa19a11d894ae16fb163ae92184",
+      "data_sha256": "00b2d459111ad5d35c966781dd661800e97f390ce3bd37b6b4efb53fc896eda8",
+      "channels": 170,
+      "windows": 3477,
+      "elements": 56744640,
+      "parameters": 1101665,
+      "epochs_run": 30,
+      "best_epoch": 28,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS08\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS08\\code_snapshot\\models.py",
+          "sha256": "2a3a8958fb0766dbf69f1095a4b7b5b68b0b868b1e46253298ce6c319a6cbce9",
+          "bytes": 2964
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS08\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS08\\code_snapshot\\i1_context_v7.py",
+          "sha256": "106a213719e2c4e26bbe333118409479e3a38756ad5f08141facbbd0edc942e8",
+          "bytes": 10252
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS08\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "02_模块一均值对比重构",
+      "shared_source_folder": "03_代码/消融/02_模块一均值对比重构",
+      "package_config": "04_实验配置/消融/04f_I1ctxv7fullval_mean_zero_PEMS08/config.json"
+    },
+    {
+      "dataset": "PEMS08",
+      "group": "I2",
+      "label": "B0 + M1 + M2 / 原设计 I2",
+      "run_id": "08e_I2stablefull_no_subtraction_r003_PEMS08",
+      "actual_role": "I2",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS08\\config.json",
+        "sha256": "2d459c624240642332f6c80289a686bc9d95b54522a385e800c1fc230667c283",
+        "bytes": 1163
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS08\\frozen_test.json",
+        "sha256": "79830d7b7f9fe49846bc114e0b3522516ca7d35abf5fc4b1ea806999727e221a",
+        "bytes": 24214
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS08\\metrics.json",
+        "sha256": "329bcd15b04b6a684f1a1c2664c390a967e923edbdca37d0c513c8abeb4dae03",
+        "bytes": 9262
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "b9c401e358b515b07b1323c26bf8d7630610845e6aed23b8adbe316989e0aa6b",
+      "data_sha256": "00b2d459111ad5d35c966781dd661800e97f390ce3bd37b6b4efb53fc896eda8",
+      "channels": 170,
+      "windows": 3477,
+      "elements": 56744640,
+      "parameters": 1101666,
+      "epochs_run": 30,
+      "best_epoch": 28,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS08\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS08\\code_snapshot\\models.py",
+          "sha256": "9c8de8e3d3d36b0256d6f32889de2fab3aa5c3adb0c1a30c88687f0c9bd3771d",
+          "bytes": 3992
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS08\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS08\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS08\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS08\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS08\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "03_模块二固定折线字典",
+      "shared_source_folder": "03_代码/消融/03_模块二固定折线字典",
+      "package_config": "04_实验配置/消融/08e_I2stablefull_no_subtraction_r003_PEMS08/config.json"
+    },
+    {
+      "dataset": "PEMS08",
+      "group": "I3",
+      "label": "OURS 完整模型",
+      "run_id": "E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08",
+      "actual_role": "absolute_response",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08\\config.json",
+        "sha256": "a044bfb5d2b43ea8d8737e1faa3e7f48c400e47365dd43d1388d986e2a2f54fa",
+        "bytes": 1770
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08\\extension6h_strong_frozen_test.json",
+        "sha256": "27d400484bf3ba4c1a283f3e77a49f1af0354a085b735deb47bba4308fe6ace0",
+        "bytes": 30595
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08\\metrics.json",
+        "sha256": "ec4e51a4911209bf9f1bb66a7b948dd559f10afb0fba5b49bf3243f8f24421d7",
+        "bytes": 20369
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "07adbf2888f5989b0b6dd092dd63e1a7c03a8e151f3f27e797cbd5ec9a5e5768",
+      "data_sha256": "00b2d459111ad5d35c966781dd661800e97f390ce3bd37b6b4efb53fc896eda8",
+      "channels": 170,
+      "windows": 3477,
+      "elements": 56744640,
+      "parameters": 1113058,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08\\code_snapshot\\train.py",
+          "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0",
+          "bytes": 10712
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08\\code_snapshot\\models.py",
+          "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0",
+          "bytes": 8480
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08\\code_snapshot\\i3_response_residual_exchange.py",
+          "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760",
+          "bytes": 5646
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "04_最新三模块及响应替换",
+      "shared_source_folder": "03_代码/消融/04_最新三模块及响应替换",
+      "package_config": "04_实验配置/消融/E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS08/config.json"
+    },
+    {
+      "dataset": "PEMS08",
+      "group": "I1_PCA",
+      "label": "PCA替换",
+      "run_id": "04e_I1ctxv3fullval_ungated_PEMS08",
+      "actual_role": "I1_PCA",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS08\\config.json",
+        "sha256": "78daca906dad2cdb3cb80a23ba2f480374c85757473f81c238da895d84f81e39",
+        "bytes": 478
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS08\\frozen_test.json",
+        "sha256": "0b6abbc4f340bb0b6c7429e20143c321630aa0ee76579d658b14829137bf3246",
+        "bytes": 11911
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS08\\metrics.json",
+        "sha256": "cf9ae1ce67ea10491890f580b1ca90cdfafabc01825bf06fafdce51775abf211",
+        "bytes": 7360
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "d3b3c4f254a805cf187c5d82602e601bc9998bf0f55b14e19454652dc19fdb0d",
+      "data_sha256": "00b2d459111ad5d35c966781dd661800e97f390ce3bd37b6b4efb53fc896eda8",
+      "channels": 170,
+      "windows": 3477,
+      "elements": 56744640,
+      "parameters": 1101665,
+      "epochs_run": 30,
+      "best_epoch": 29,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS08\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS08\\code_snapshot\\models.py",
+          "sha256": "474eaed76f79ffe0aebb5ae6008fd5eacf13ea7dd852271fa7f257014b43866c",
+          "bytes": 2726
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS08\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS08\\code_snapshot\\i1_context_v3.py",
+          "sha256": "56781ed0d0335eaf4ce3d11132aae19b6ecfd53b33c4a5658af1d04f68ac7e3b",
+          "bytes": 4974
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS08\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "05_模块一PCA替换",
+      "shared_source_folder": "03_代码/消融/05_模块一PCA替换",
+      "package_config": "04_实验配置/消融/04e_I1ctxv3fullval_ungated_PEMS08/config.json"
+    },
+    {
+      "dataset": "PEMS08",
+      "group": "I1_MEAN_ADDITIVE",
+      "label": "均值加性替换",
+      "run_id": "04g_I1commonfull_mean_additive_PEMS08",
+      "actual_role": "I1_MEAN_ADDITIVE",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS08\\config.json",
+        "sha256": "05135c40103e254800ec6324e0a6767962b31136352d385779019cbe25d80d4c",
+        "bytes": 487
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS08\\frozen_test.json",
+        "sha256": "7a1f5d66cd86b8fc0ccd5bb733a481030e45aa024c3f0c075e5ea8d31d6930c6",
+        "bytes": 12322
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS08\\metrics.json",
+        "sha256": "37fc6565b8e5ab06c1eb13e75a90731626f22a5b6e1371c5a370beb1597cc03b",
+        "bytes": 7778
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "e59b77fd8ba3d2f5f4be8e9d02accf4a7af471035c2a75d84c2991be8490c554",
+      "data_sha256": "00b2d459111ad5d35c966781dd661800e97f390ce3bd37b6b4efb53fc896eda8",
+      "channels": 170,
+      "windows": 3477,
+      "elements": 56744640,
+      "parameters": 1101665,
+      "epochs_run": 30,
+      "best_epoch": 28,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS08\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS08\\code_snapshot\\models.py",
+          "sha256": "69a0b5ac72e21c90a076b28cc02dec323a335d4356b358cb2d126977867e8132",
+          "bytes": 3208
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS08\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS08\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS08\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "06_模块一均值加性替换",
+      "shared_source_folder": "03_代码/消融/06_模块一均值加性替换",
+      "package_config": "04_实验配置/消融/04g_I1commonfull_mean_additive_PEMS08/config.json"
+    },
+    {
+      "dataset": "PEMS08",
+      "group": "I2_ADAPTIVE",
+      "label": "自适应折线",
+      "run_id": "08h_I2addfull_adaptive_hinge_r003_PEMS08",
+      "actual_role": "I2_ADAPTIVE",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS08\\config.json",
+        "sha256": "e5d5b05c965fec21bde1460e9d4482e7cede2f1f32b626edcd843af664c326fd",
+        "bytes": 1017
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS08\\frozen_test.json",
+        "sha256": "7cd954b070c3cbe6b137d2675423a826522abcc6cc8fb4018d6fbf6b39376776",
+        "bytes": 24837
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS08\\metrics.json",
+        "sha256": "31258ac92f3475d6d8696ada1a98febdbd2fcd40ed4ed2121a32666200871102",
+        "bytes": 9872
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "4e3276b1db989d7c74f311714477e463cd5883cfaa94b6fe67188907ad6a4072",
+      "data_sha256": "00b2d459111ad5d35c966781dd661800e97f390ce3bd37b6b4efb53fc896eda8",
+      "channels": 170,
+      "windows": 3477,
+      "elements": 56744640,
+      "parameters": 1101666,
+      "epochs_run": 30,
+      "best_epoch": 28,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS08\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS08\\code_snapshot\\models.py",
+          "sha256": "2050be20f2e60bfed734d3a8611a8d042f19da67f2847d2405105c45460b16f2",
+          "bytes": 4129
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS08\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS08\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS08\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS08\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS08\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "07_模块二自适应及Hermite替换",
+      "shared_source_folder": "03_代码/消融/07_模块二自适应及Hermite替换",
+      "package_config": "04_实验配置/消融/08h_I2addfull_adaptive_hinge_r003_PEMS08/config.json"
+    },
+    {
+      "dataset": "PEMS08",
+      "group": "I2_HERMITE",
+      "label": "Hermite替换",
+      "run_id": "08h_I2addfull_hermite_r003_PEMS08",
+      "actual_role": "I2_HERMITE",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS08\\config.json",
+        "sha256": "644d89c999bdf76d68c18b0e123681bdc1f0423c9901e78474b34369c3e51540",
+        "bytes": 1012
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS08\\frozen_test.json",
+        "sha256": "38c700a58a05a4ae42c0a8254b643c4b34085da086b34feaa86072349abc34b4",
+        "bytes": 24807
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS08\\metrics.json",
+        "sha256": "b8651a62d73d8b0959ea0fb7b2a54acbc8cb6787f0614b6c89a4bbf011ec484f",
+        "bytes": 9853
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "a036026ba3fd388a7cdd63f2e592376ee6cefdcb0fa9915a73418c84950472df",
+      "data_sha256": "00b2d459111ad5d35c966781dd661800e97f390ce3bd37b6b4efb53fc896eda8",
+      "channels": 170,
+      "windows": 3477,
+      "elements": 56744640,
+      "parameters": 1101666,
+      "epochs_run": 30,
+      "best_epoch": 28,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS08\\code_snapshot\\train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS08\\code_snapshot\\models.py",
+          "sha256": "2050be20f2e60bfed734d3a8611a8d042f19da67f2847d2405105c45460b16f2",
+          "bytes": 4129
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS08\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS08\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS08\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS08\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_hermite_r003_PEMS08\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "07_模块二自适应及Hermite替换",
+      "shared_source_folder": "03_代码/消融/07_模块二自适应及Hermite替换",
+      "package_config": "04_实验配置/消融/08h_I2addfull_hermite_r003_PEMS08/config.json"
+    },
+    {
+      "dataset": "PEMS08",
+      "group": "I3_CONTROL1",
+      "label": "有符号响应",
+      "run_id": "E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08",
+      "actual_role": "signed_response",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08\\config.json",
+        "sha256": "2cbb77e23b6344e86a0eaab784c51c20ed9c973d6df54dd20a28e3a406d5b25c",
+        "bytes": 1766
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08\\extension6h_strong_frozen_test.json",
+        "sha256": "7adc1f0f256403084861d0ec4343cbbe1471600967e192d2b931d1d30658eed6",
+        "bytes": 30585
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08\\metrics.json",
+        "sha256": "86b537cc28cb1b4c401867e8850479272f88f945febfe523688e4555890cd7be",
+        "bytes": 20364
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "560ae40a940b0114ca33d5a5372261c284846dbd8f6af842bfcf99ed25752a06",
+      "data_sha256": "00b2d459111ad5d35c966781dd661800e97f390ce3bd37b6b4efb53fc896eda8",
+      "channels": 170,
+      "windows": 3477,
+      "elements": 56744640,
+      "parameters": 1113058,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08\\code_snapshot\\train.py",
+          "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0",
+          "bytes": 10712
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08\\code_snapshot\\models.py",
+          "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0",
+          "bytes": 8480
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08\\code_snapshot\\i3_response_residual_exchange.py",
+          "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760",
+          "bytes": 5646
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "04_最新三模块及响应替换",
+      "shared_source_folder": "03_代码/消融/04_最新三模块及响应替换",
+      "package_config": "04_实验配置/消融/E6g_I3EXCHANGE32FULL_signed_response_h00_PEMS08/config.json"
+    },
+    {
+      "dataset": "PEMS08",
+      "group": "I3_CONTROL2",
+      "label": "错配响应",
+      "run_id": "E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08",
+      "actual_role": "shuffled_response",
+      "config": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08\\config.json",
+        "sha256": "30ab547e5687959c87720bc2a03f80e0cc0660cc128010d685f907015444f777",
+        "bytes": 1770
+      },
+      "test_result": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08\\extension6h_strong_frozen_test.json",
+        "sha256": "4a5cec3ee8830441fb52ed771ed637266d95fed426bae64fc28609e7f7c9fe1d",
+        "bytes": 30608
+      },
+      "metrics": {
+        "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08\\metrics.json",
+        "sha256": "8e70175320d188c2845bf67b36c19f0d8fd30763656ebb70933f915fbf32996b",
+        "bytes": 20386
+      },
+      "test_json_pointer": "/test",
+      "checkpoint_sha256": "55785295f887d58b8e90b696910b0ed1465659d38b854d378d88e8968d392da4",
+      "data_sha256": "00b2d459111ad5d35c966781dd661800e97f390ce3bd37b6b4efb53fc896eda8",
+      "channels": 170,
+      "windows": 3477,
+      "elements": 56744640,
+      "parameters": 1113058,
+      "epochs_run": 30,
+      "best_epoch": 30,
+      "max_epochs": 30,
+      "patience": 7,
+      "train_batch_size": 128,
+      "source_files": [
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08\\code_snapshot\\train.py",
+          "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0",
+          "bytes": 10712
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08\\code_snapshot\\models.py",
+          "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0",
+          "bytes": 8480
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08\\code_snapshot\\prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08\\code_snapshot\\i3_response_residual_exchange.py",
+          "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760",
+          "bytes": 5646
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08\\code_snapshot\\i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08\\code_snapshot\\i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08\\code_snapshot\\i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "path": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08\\code_snapshot\\i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ],
+      "shared_code_set": "04_最新三模块及响应替换",
+      "shared_source_folder": "03_代码/消融/04_最新三模块及响应替换",
+      "package_config": "04_实验配置/消融/E6g_I3EXCHANGE32FULL_shuffled_response_h00_PEMS08/config.json"
+    }
+  ],
+  "shared_scientific_code_sets": [
+    {
+      "code_set": "01_基准B0",
+      "representative_run_id": "01_B0full_PEMS04",
+      "files": [
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS04\\code_snapshot\\train.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\01_基准B0\\train.py",
+          "filename": "train.py",
+          "sha256": "674e12a2caf98189369420e3d6ba41ded818d3582eb445672e123c28c414c8d9",
+          "bytes": 10539
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS04\\code_snapshot\\models.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\01_基准B0\\models.py",
+          "filename": "models.py",
+          "sha256": "42e7f75d55fee6e5872359a964948d4922837db20b5524aaeca51d5023201453",
+          "bytes": 1663
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\01_B0full_PEMS04\\code_snapshot\\prepare_data.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\01_基准B0\\prepare_data.py",
+          "filename": "prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        }
+      ]
+    },
+    {
+      "code_set": "02_模块一均值对比重构",
+      "representative_run_id": "04f_I1ctxv7fullval_mean_zero_PEMS04",
+      "files": [
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\code_snapshot\\train.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\02_模块一均值对比重构\\train.py",
+          "filename": "train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\code_snapshot\\models.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\02_模块一均值对比重构\\models.py",
+          "filename": "models.py",
+          "sha256": "2a3a8958fb0766dbf69f1095a4b7b5b68b0b868b1e46253298ce6c319a6cbce9",
+          "bytes": 2964
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\code_snapshot\\prepare_data.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\02_模块一均值对比重构\\prepare_data.py",
+          "filename": "prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\code_snapshot\\i1_context_v7.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\02_模块一均值对比重构\\i1_context_v7.py",
+          "filename": "i1_context_v7.py",
+          "sha256": "106a213719e2c4e26bbe333118409479e3a38756ad5f08141facbbd0edc942e8",
+          "bytes": 10252
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04f_I1ctxv7fullval_mean_zero_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\02_模块一均值对比重构\\i1_context_v2.py",
+          "filename": "i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ]
+    },
+    {
+      "code_set": "03_模块二固定折线字典",
+      "representative_run_id": "08e_I2stablefull_no_subtraction_r003_PEMS04",
+      "files": [
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\train.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\03_模块二固定折线字典\\train.py",
+          "filename": "train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\models.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\03_模块二固定折线字典\\models.py",
+          "filename": "models.py",
+          "sha256": "9c8de8e3d3d36b0256d6f32889de2fab3aa5c3adb0c1a30c88687f0c9bd3771d",
+          "bytes": 3992
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\prepare_data.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\03_模块二固定折线字典\\prepare_data.py",
+          "filename": "prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\i2_curvature_stable.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\03_模块二固定折线字典\\i2_curvature_stable.py",
+          "filename": "i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\i2_curvature.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\03_模块二固定折线字典\\i2_curvature.py",
+          "filename": "i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\i1_common_contrast.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\03_模块二固定折线字典\\i1_common_contrast.py",
+          "filename": "i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08e_I2stablefull_no_subtraction_r003_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\03_模块二固定折线字典\\i1_context_v2.py",
+          "filename": "i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ]
+    },
+    {
+      "code_set": "04_最新三模块及响应替换",
+      "representative_run_id": "E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04",
+      "files": [
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\train.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\04_最新三模块及响应替换\\train.py",
+          "filename": "train.py",
+          "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0",
+          "bytes": 10712
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\models.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\04_最新三模块及响应替换\\models.py",
+          "filename": "models.py",
+          "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0",
+          "bytes": 8480
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\prepare_data.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\04_最新三模块及响应替换\\prepare_data.py",
+          "filename": "prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\i3_response_residual_exchange.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\04_最新三模块及响应替换\\i3_response_residual_exchange.py",
+          "filename": "i3_response_residual_exchange.py",
+          "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760",
+          "bytes": 5646
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\i2_curvature_stable.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\04_最新三模块及响应替换\\i2_curvature_stable.py",
+          "filename": "i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\i2_curvature.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\04_最新三模块及响应替换\\i2_curvature.py",
+          "filename": "i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\i1_common_contrast.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\04_最新三模块及响应替换\\i1_common_contrast.py",
+          "filename": "i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\E6g_I3EXCHANGE32FULL_absolute_response_h00_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\04_最新三模块及响应替换\\i1_context_v2.py",
+          "filename": "i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ]
+    },
+    {
+      "code_set": "05_模块一PCA替换",
+      "representative_run_id": "04e_I1ctxv3fullval_ungated_PEMS04",
+      "files": [
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\code_snapshot\\train.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\05_模块一PCA替换\\train.py",
+          "filename": "train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\code_snapshot\\models.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\05_模块一PCA替换\\models.py",
+          "filename": "models.py",
+          "sha256": "474eaed76f79ffe0aebb5ae6008fd5eacf13ea7dd852271fa7f257014b43866c",
+          "bytes": 2726
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\code_snapshot\\prepare_data.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\05_模块一PCA替换\\prepare_data.py",
+          "filename": "prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\code_snapshot\\i1_context_v3.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\05_模块一PCA替换\\i1_context_v3.py",
+          "filename": "i1_context_v3.py",
+          "sha256": "56781ed0d0335eaf4ce3d11132aae19b6ecfd53b33c4a5658af1d04f68ac7e3b",
+          "bytes": 4974
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04e_I1ctxv3fullval_ungated_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\05_模块一PCA替换\\i1_context_v2.py",
+          "filename": "i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ]
+    },
+    {
+      "code_set": "06_模块一均值加性替换",
+      "representative_run_id": "04g_I1commonfull_mean_additive_PEMS04",
+      "files": [
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\code_snapshot\\train.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\06_模块一均值加性替换\\train.py",
+          "filename": "train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\code_snapshot\\models.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\06_模块一均值加性替换\\models.py",
+          "filename": "models.py",
+          "sha256": "69a0b5ac72e21c90a076b28cc02dec323a335d4356b358cb2d126977867e8132",
+          "bytes": 3208
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\code_snapshot\\prepare_data.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\06_模块一均值加性替换\\prepare_data.py",
+          "filename": "prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\code_snapshot\\i1_common_contrast.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\06_模块一均值加性替换\\i1_common_contrast.py",
+          "filename": "i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\04g_I1commonfull_mean_additive_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\06_模块一均值加性替换\\i1_context_v2.py",
+          "filename": "i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ]
+    },
+    {
+      "code_set": "07_模块二自适应及Hermite替换",
+      "representative_run_id": "08h_I2addfull_adaptive_hinge_r003_PEMS04",
+      "files": [
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\train.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\07_模块二自适应及Hermite替换\\train.py",
+          "filename": "train.py",
+          "sha256": "10076cb9f3859dec98abacc3868c878e945b5f1eb3e95f6fdfa4ba75a1268988",
+          "bytes": 10576
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\models.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\07_模块二自适应及Hermite替换\\models.py",
+          "filename": "models.py",
+          "sha256": "2050be20f2e60bfed734d3a8611a8d042f19da67f2847d2405105c45460b16f2",
+          "bytes": 4129
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\prepare_data.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\07_模块二自适应及Hermite替换\\prepare_data.py",
+          "filename": "prepare_data.py",
+          "sha256": "96e711e15275b7e6ae3047b2298df80da03295607ae00b9116d6d693315a8ea5",
+          "bytes": 13266
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\i2_curvature_stable.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\07_模块二自适应及Hermite替换\\i2_curvature_stable.py",
+          "filename": "i2_curvature_stable.py",
+          "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+          "bytes": 6391
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\i2_curvature.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\07_模块二自适应及Hermite替换\\i2_curvature.py",
+          "filename": "i2_curvature.py",
+          "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+          "bytes": 19418
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\i1_common_contrast.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\07_模块二自适应及Hermite替换\\i1_common_contrast.py",
+          "filename": "i1_common_contrast.py",
+          "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+          "bytes": 10157
+        },
+        {
+          "source": "D:\\AAA第五篇论文来咯\\results\\08h_I2addfull_adaptive_hinge_r003_PEMS04\\code_snapshot\\i1_context_v2.py",
+          "copy": "D:\\AAA第五篇论文来咯\\outputs\\01a11727-c82b-70e0-9308-6c7e3f370144\\writing_package_20261012\\working\\ablation_review\\shared_scientific_sources\\07_模块二自适应及Hermite替换\\i1_context_v2.py",
+          "filename": "i1_context_v2.py",
+          "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+          "bytes": 8364
+        }
+      ]
+    }
+  ],
+  "unique_code_set_count": 7,
+  "shared_scientific_code_bytes": 383266
+}

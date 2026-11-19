@@ -1,0 +1,1618 @@
+{
+  "excluded_operational_names": [
+    "remote.py",
+    "controller",
+    "guard",
+    "probe",
+    "monitor"
+  ],
+  "external_import_roots": [
+    "einops",
+    "math",
+    "numpy",
+    "torch",
+    "typing"
+  ],
+  "files": [
+    {
+      "bytes": 15378,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/core_utils.py",
+      "models": [
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\core_utils.py",
+      "role": "actual_training_data_loader_or_model_adapter",
+      "sha256": "172387f7864ee21ff9e8500b8eded2cd3e96a5af58daf149151d122416570033"
+    },
+    {
+      "bytes": 8959,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/recent_adapter.py",
+      "models": [
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\recent_adapter.py",
+      "role": "actual_training_data_loader_or_model_adapter",
+      "sha256": "5fd58f550d875618c28aabf145510dca2d5f9cc51f009de52bec971ea11660fe"
+    },
+    {
+      "bytes": 11266,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/run_train.py",
+      "models": [
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\run_train.py",
+      "role": "actual_training_data_loader_or_model_adapter",
+      "sha256": "a7a282a8775013423e1ec1c74e6c17f049ba418bd94fab3ffab3bfa2e315bd75"
+    },
+    {
+      "bytes": 6572,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/vendor_recent/MixLinear/layers/Embed.py",
+      "models": [
+        "MixLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor_recent\\MixLinear\\layers\\Embed.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "3743a14dd505f9caafb512727b10bec2d4a84d84cacc6f8936f33a5071e2a0a2"
+    },
+    {
+      "bytes": 3411,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/vendor_recent/MixLinear/models/MixLinear.py",
+      "models": [
+        "MixLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor_recent\\MixLinear\\models\\MixLinear.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "6546c25174d09b4028d6b9b760e3841ae7a77c5ec42c1b5345883320777221b9"
+    },
+    {
+      "bytes": 55,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/vendor_recent/MixLinear/requirements.txt",
+      "models": [
+        "MixLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor_recent\\MixLinear\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "e6d58ca561ff53dd76799cf1ecea2fd7545e73545c9459ccfa06e4dda24bab1f"
+    },
+    {
+      "bytes": 1084,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/vendor_recent/PhaseFormer_TSL/LICENSE",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor_recent\\PhaseFormer_TSL\\LICENSE",
+      "role": "license_or_declared_dependencies",
+      "sha256": "8a6caa178ea3f33ebff5d7bb5558628cf5b423305dc30d3630f86564c7db94a2"
+    },
+    {
+      "bytes": 10862,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/vendor_recent/PhaseFormer_TSL/layers/SelfAttention_Family.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor_recent\\PhaseFormer_TSL\\layers\\SelfAttention_Family.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "bf7a4cecc31a360a6ee870325af53d77607b1d682eadb337d547a662d677531c"
+    },
+    {
+      "bytes": 0,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/vendor_recent/PhaseFormer_TSL/layers/__init__.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor_recent\\PhaseFormer_TSL\\layers\\__init__.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 21884,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/vendor_recent/PhaseFormer_TSL/models/PhaseFormer.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor_recent\\PhaseFormer_TSL\\models\\PhaseFormer.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "1d19a3662c8badf2c009f7e1d7801b86f175207f05ccfa5f32c497dffd6a0a2e"
+    },
+    {
+      "bytes": 0,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/vendor_recent/PhaseFormer_TSL/models/__init__.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor_recent\\PhaseFormer_TSL\\models\\__init__.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 196,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/vendor_recent/PhaseFormer_TSL/requirements.txt",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor_recent\\PhaseFormer_TSL\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "7fdd27381ad5bc07c08b71036498f70275f98a7eca52948700e78db94dd43b12"
+    },
+    {
+      "bytes": 0,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/vendor_recent/PhaseFormer_TSL/utils/__init__.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor_recent\\PhaseFormer_TSL\\utils\\__init__.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 832,
+      "cohort_source": "ADD5_MixLinear_PhaseFormer",
+      "destination": "03_代码/主实验/ADD5_MixLinear_PhaseFormer/vendor_recent/PhaseFormer_TSL/utils/masking.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD5_L96_SINGLE_SEED_20261010\\actual_exports\\ADD5_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor_recent\\PhaseFormer_TSL\\utils\\masking.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "02f453e52cfaec65e34132923add80e7132f188706680fa86d7bd884976e09ef"
+    },
+    {
+      "bytes": 7961,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/batch_common.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\batch_common.py",
+      "role": "actual_training_data_loader_or_model_adapter",
+      "sha256": "0cc90a65f1bb2c1003d7ae909eb46fc10a8d8a5885c188200695c171a8c25147"
+    },
+    {
+      "bytes": 15736,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/core_utils.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\core_utils.py",
+      "role": "actual_training_data_loader_or_model_adapter",
+      "sha256": "dd389b075e7295999de49fb9acc0d6cf8541602e89e1782ae6a8bbcb5fffadc0"
+    },
+    {
+      "bytes": 11748,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/frozen_sources/adapters/lightweight_adapter.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\frozen_sources\\adapters\\lightweight_adapter.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "5b1ce2c98f749c9dbac07dff4c7b634ec8e4e82597e73f28508a982201937520"
+    },
+    {
+      "bytes": 8959,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/frozen_sources/adapters/recent_adapter.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\frozen_sources\\adapters\\recent_adapter.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "5fd58f550d875618c28aabf145510dca2d5f9cc51f009de52bec971ea11660fe"
+    },
+    {
+      "bytes": 5478,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/frozen_sources/adapters/temporal_adapter.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\frozen_sources\\adapters\\temporal_adapter.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "ca8d21d6a2fbe786207e8ce79b1fb02d0f523b816219878a952680c4215ecc7d"
+    },
+    {
+      "bytes": 10157,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/frozen_sources/ours/i1_common_contrast.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\frozen_sources\\ours\\i1_common_contrast.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a"
+    },
+    {
+      "bytes": 8364,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/frozen_sources/ours/i1_context_v2.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\frozen_sources\\ours\\i1_context_v2.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44"
+    },
+    {
+      "bytes": 19418,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/frozen_sources/ours/i2_curvature.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\frozen_sources\\ours\\i2_curvature.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf"
+    },
+    {
+      "bytes": 6391,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/frozen_sources/ours/i2_curvature_stable.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\frozen_sources\\ours\\i2_curvature_stable.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3"
+    },
+    {
+      "bytes": 5646,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/frozen_sources/ours/i3_response_residual_exchange.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\frozen_sources\\ours\\i3_response_residual_exchange.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760"
+    },
+    {
+      "bytes": 8480,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/frozen_sources/ours/models.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\frozen_sources\\ours\\models.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0"
+    },
+    {
+      "bytes": 10712,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/frozen_sources/ours/train.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\frozen_sources\\ours\\train.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0"
+    },
+    {
+      "bytes": 10558,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/headers/actual_test24.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\headers\\actual_test24.py",
+      "role": "actual_test_data_loader_and_evaluator",
+      "sha256": "84dbb25a2d0b374f65a394c74df8a1dc6e074ba26727a23624560638b3dd2223"
+    },
+    {
+      "bytes": 6252,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/models_adapter.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\models_adapter.py",
+      "role": "actual_training_data_loader_or_model_adapter",
+      "sha256": "7373e173d7a7466be92494761f738382063c47380d5a50531093a09e6f9dc44a"
+    },
+    {
+      "bytes": 26860,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/runtime.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\runtime.py",
+      "role": "actual_training_data_loader_or_model_adapter",
+      "sha256": "a6583175a90ee53ab964a0c951cafde9b62a361295e2ebc1676a0aa55b678169"
+    },
+    {
+      "bytes": 1923,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/secure_paths.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\secure_paths.py",
+      "role": "actual_training_data_loader_or_model_adapter",
+      "sha256": "1cb942a7a8265b38aa4fc1fad01197d15ccd571d4fb5e22bb310a6df2b1dd9a8"
+    },
+    {
+      "bytes": 11399,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/lightweight/DLinear/LICENSE",
+      "models": [
+        "DLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\lightweight\\DLinear\\LICENSE",
+      "role": "license_or_declared_dependencies",
+      "sha256": "195440db73029b048f34f3a8509add1611d6608e1edafb766eb398a65300f7a2"
+    },
+    {
+      "bytes": 3661,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/lightweight/DLinear/models/DLinear.py",
+      "models": [
+        "DLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\lightweight\\DLinear\\models\\DLinear.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "0893b53cb6473d6bdca7aeca514cb3ee12efa6df227c29c4469571c9711451cc"
+    },
+    {
+      "bytes": 49,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/lightweight/DLinear/requirements.txt",
+      "models": [
+        "DLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\lightweight\\DLinear\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "1d0c070dc34b790d124e137e27e7e75b39509643075455432355f5c37440d6cc"
+    },
+    {
+      "bytes": 11324,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/lightweight/SparseTSF/LICENSE",
+      "models": [
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\lightweight\\SparseTSF\\LICENSE",
+      "role": "license_or_declared_dependencies",
+      "sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a"
+    },
+    {
+      "bytes": 6572,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/lightweight/SparseTSF/layers/Embed.py",
+      "models": [
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\lightweight\\SparseTSF\\layers\\Embed.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "3743a14dd505f9caafb512727b10bec2d4a84d84cacc6f8936f33a5071e2a0a2"
+    },
+    {
+      "bytes": 2054,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/lightweight/SparseTSF/models/SparseTSF.py",
+      "models": [
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\lightweight\\SparseTSF\\models\\SparseTSF.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "7f4afe758bd7ad71b939b88e633acd271f275f4e85dd73b724233c7b1a041948"
+    },
+    {
+      "bytes": 42,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/lightweight/SparseTSF/requirements.txt",
+      "models": [
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\lightweight\\SparseTSF\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "ea9503aa165c49538bb8ca976dda681cce00d576c6d2f02ad26ab3ed468c081c"
+    },
+    {
+      "bytes": 6572,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/recent/MixLinear/layers/Embed.py",
+      "models": [
+        "MixLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\recent\\MixLinear\\layers\\Embed.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "3743a14dd505f9caafb512727b10bec2d4a84d84cacc6f8936f33a5071e2a0a2"
+    },
+    {
+      "bytes": 3411,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/recent/MixLinear/models/MixLinear.py",
+      "models": [
+        "MixLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\recent\\MixLinear\\models\\MixLinear.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "6546c25174d09b4028d6b9b760e3841ae7a77c5ec42c1b5345883320777221b9"
+    },
+    {
+      "bytes": 55,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/recent/MixLinear/requirements.txt",
+      "models": [
+        "MixLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\recent\\MixLinear\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "e6d58ca561ff53dd76799cf1ecea2fd7545e73545c9459ccfa06e4dda24bab1f"
+    },
+    {
+      "bytes": 1084,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/recent/PhaseFormer_TSL/LICENSE",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\recent\\PhaseFormer_TSL\\LICENSE",
+      "role": "license_or_declared_dependencies",
+      "sha256": "8a6caa178ea3f33ebff5d7bb5558628cf5b423305dc30d3630f86564c7db94a2"
+    },
+    {
+      "bytes": 10862,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/recent/PhaseFormer_TSL/layers/SelfAttention_Family.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\recent\\PhaseFormer_TSL\\layers\\SelfAttention_Family.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "bf7a4cecc31a360a6ee870325af53d77607b1d682eadb337d547a662d677531c"
+    },
+    {
+      "bytes": 0,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/recent/PhaseFormer_TSL/layers/__init__.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\recent\\PhaseFormer_TSL\\layers\\__init__.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 21884,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/recent/PhaseFormer_TSL/models/PhaseFormer.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\recent\\PhaseFormer_TSL\\models\\PhaseFormer.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "1d19a3662c8badf2c009f7e1d7801b86f175207f05ccfa5f32c497dffd6a0a2e"
+    },
+    {
+      "bytes": 0,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/recent/PhaseFormer_TSL/models/__init__.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\recent\\PhaseFormer_TSL\\models\\__init__.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 196,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/recent/PhaseFormer_TSL/requirements.txt",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\recent\\PhaseFormer_TSL\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "7fdd27381ad5bc07c08b71036498f70275f98a7eca52948700e78db94dd43b12"
+    },
+    {
+      "bytes": 0,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/recent/PhaseFormer_TSL/utils/__init__.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\recent\\PhaseFormer_TSL\\utils\\__init__.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 832,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/recent/PhaseFormer_TSL/utils/masking.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\recent\\PhaseFormer_TSL\\utils\\masking.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "02f453e52cfaec65e34132923add80e7132f188706680fa86d7bd884976e09ef"
+    },
+    {
+      "bytes": 1085,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/temporal/ModernTCN/LICENSE",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\temporal\\ModernTCN\\LICENSE",
+      "role": "license_or_declared_dependencies",
+      "sha256": "3f320fee174a7b89f06e7b1ee02f3f70ce0e0d90fd565f35defb1e9cf8bb3e1f"
+    },
+    {
+      "bytes": 2071,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/temporal/ModernTCN/ModernTCN-Long-term-forecasting/layers/RevIN.py",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\temporal\\ModernTCN\\ModernTCN-Long-term-forecasting\\layers\\RevIN.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "486c3d24e2d776c066e21b6f57b3bd556f501c210c58941de4d00a0ca3484c6b"
+    },
+    {
+      "bytes": 18476,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/temporal/ModernTCN/ModernTCN-Long-term-forecasting/models/ModernTCN.py",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\temporal\\ModernTCN\\ModernTCN-Long-term-forecasting\\models\\ModernTCN.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "daf74722e40d928e5ed6bc871b528a5d5d2c9090f30cafb89110cc88dc60fa30"
+    },
+    {
+      "bytes": 2803,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/temporal/ModernTCN/ModernTCN-Long-term-forecasting/models/ModernTCN_Layer.py",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\temporal\\ModernTCN\\ModernTCN-Long-term-forecasting\\models\\ModernTCN_Layer.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "b2291534c6a11ebd80882bed89f7cf8c76c721b8e0495294659f2c5b0fe88cea"
+    },
+    {
+      "bytes": 108,
+      "cohort_source": "AEMO_NEW5",
+      "destination": "03_代码/主实验/AEMO_NEW5/vendor/temporal/ModernTCN/requirements.txt",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\NEW5_PILOT_20261011\\complete24_aemo_test_release\\verified_evidence\\source\\vendor\\temporal\\ModernTCN\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "210cb0d6c0635352bb81fbe8f731c43b23a8b0576687d948e897caac327223bf"
+    },
+    {
+      "bytes": 13590,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/comparison_code_lightweight_v1/compare_train.py",
+      "models": [
+        "DLinear",
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\comparison_code_lightweight_v1\\compare_train.py",
+      "role": "official_model_adapter_and_training",
+      "sha256": "fe8d8db0d8abc9300ce384ba1e2d83484d3804dedab7333353ac09e805fa0d47"
+    },
+    {
+      "bytes": 1119,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/comparison_code_lightweight_v1/comparison_models.py",
+      "models": [
+        "DLinear",
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\comparison_code_lightweight_v1\\comparison_models.py",
+      "role": "official_model_adapter_and_training",
+      "sha256": "daefe53e10db84991aa10b84d7b5328eeb0aac240e368640b18c01f6e084c3bb"
+    },
+    {
+      "bytes": 11748,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/comparison_code_lightweight_v1/lightweight_adapter.py",
+      "models": [
+        "DLinear",
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\comparison_code_lightweight_v1\\lightweight_adapter.py",
+      "role": "official_model_adapter_and_training",
+      "sha256": "5b1ce2c98f749c9dbac07dff4c7b634ec8e4e82597e73f28508a982201937520"
+    },
+    {
+      "bytes": 13590,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/comparison_code_temporal_v1/compare_train.py",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\comparison_code_temporal_v1\\compare_train.py",
+      "role": "official_model_adapter_and_training",
+      "sha256": "fe8d8db0d8abc9300ce384ba1e2d83484d3804dedab7333353ac09e805fa0d47"
+    },
+    {
+      "bytes": 1119,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/comparison_code_temporal_v1/comparison_models.py",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\comparison_code_temporal_v1\\comparison_models.py",
+      "role": "official_model_adapter_and_training",
+      "sha256": "daefe53e10db84991aa10b84d7b5328eeb0aac240e368640b18c01f6e084c3bb"
+    },
+    {
+      "bytes": 5478,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/comparison_code_temporal_v1/temporal_adapter.py",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\comparison_code_temporal_v1\\temporal_adapter.py",
+      "role": "official_model_adapter_and_training",
+      "sha256": "ca8d21d6a2fbe786207e8ce79b1fb02d0f523b816219878a952680c4215ecc7d"
+    },
+    {
+      "bytes": 12057,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/export_tools/main_stage_tools.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\export_tools\\main_stage_tools.py",
+      "role": "actual_shared_test_data_loader_and_evaluator",
+      "sha256": "2e97ebe52b1d6073ffc7dde9ff748f1e11bebb31ff91b6c9b462cedc9ff63b2f"
+    },
+    {
+      "bytes": 10157,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/ours_code/i1_common_contrast.py",
+      "models": [
+        "OURS"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\ours_code\\i1_common_contrast.py",
+      "role": "OURS_model_and_training",
+      "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a"
+    },
+    {
+      "bytes": 8364,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/ours_code/i1_context_v2.py",
+      "models": [
+        "OURS"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\ours_code\\i1_context_v2.py",
+      "role": "OURS_model_and_training",
+      "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44"
+    },
+    {
+      "bytes": 19418,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/ours_code/i2_curvature.py",
+      "models": [
+        "OURS"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\ours_code\\i2_curvature.py",
+      "role": "OURS_model_and_training",
+      "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf"
+    },
+    {
+      "bytes": 6391,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/ours_code/i2_curvature_stable.py",
+      "models": [
+        "OURS"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\ours_code\\i2_curvature_stable.py",
+      "role": "OURS_model_and_training",
+      "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3"
+    },
+    {
+      "bytes": 5646,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/ours_code/i3_response_residual_exchange.py",
+      "models": [
+        "OURS"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\ours_code\\i3_response_residual_exchange.py",
+      "role": "OURS_model_and_training",
+      "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760"
+    },
+    {
+      "bytes": 8480,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/ours_code/models.py",
+      "models": [
+        "OURS"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\ours_code\\models.py",
+      "role": "OURS_model_and_training",
+      "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0"
+    },
+    {
+      "bytes": 10712,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/ours_code/train.py",
+      "models": [
+        "OURS"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\ours_code\\train.py",
+      "role": "OURS_model_and_training",
+      "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0"
+    },
+    {
+      "bytes": 11399,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/vendor_lightweight_v1/DLinear/LICENSE",
+      "models": [
+        "DLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\vendor_lightweight_v1\\DLinear\\LICENSE",
+      "role": "license_or_declared_dependencies",
+      "sha256": "195440db73029b048f34f3a8509add1611d6608e1edafb766eb398a65300f7a2"
+    },
+    {
+      "bytes": 3661,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/vendor_lightweight_v1/DLinear/models/DLinear.py",
+      "models": [
+        "DLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\vendor_lightweight_v1\\DLinear\\models\\DLinear.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "0893b53cb6473d6bdca7aeca514cb3ee12efa6df227c29c4469571c9711451cc"
+    },
+    {
+      "bytes": 49,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/vendor_lightweight_v1/DLinear/requirements.txt",
+      "models": [
+        "DLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\vendor_lightweight_v1\\DLinear\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "1d0c070dc34b790d124e137e27e7e75b39509643075455432355f5c37440d6cc"
+    },
+    {
+      "bytes": 11324,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/vendor_lightweight_v1/SparseTSF/LICENSE",
+      "models": [
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\vendor_lightweight_v1\\SparseTSF\\LICENSE",
+      "role": "license_or_declared_dependencies",
+      "sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a"
+    },
+    {
+      "bytes": 6572,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/vendor_lightweight_v1/SparseTSF/layers/Embed.py",
+      "models": [
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\vendor_lightweight_v1\\SparseTSF\\layers\\Embed.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "3743a14dd505f9caafb512727b10bec2d4a84d84cacc6f8936f33a5071e2a0a2"
+    },
+    {
+      "bytes": 2054,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/vendor_lightweight_v1/SparseTSF/models/SparseTSF.py",
+      "models": [
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\vendor_lightweight_v1\\SparseTSF\\models\\SparseTSF.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "7f4afe758bd7ad71b939b88e633acd271f275f4e85dd73b724233c7b1a041948"
+    },
+    {
+      "bytes": 42,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/vendor_lightweight_v1/SparseTSF/requirements.txt",
+      "models": [
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\vendor_lightweight_v1\\SparseTSF\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "ea9503aa165c49538bb8ca976dda681cce00d576c6d2f02ad26ab3ed468c081c"
+    },
+    {
+      "bytes": 1085,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/vendor_temporal_v1/ModernTCN/LICENSE",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\vendor_temporal_v1\\ModernTCN\\LICENSE",
+      "role": "license_or_declared_dependencies",
+      "sha256": "3f320fee174a7b89f06e7b1ee02f3f70ce0e0d90fd565f35defb1e9cf8bb3e1f"
+    },
+    {
+      "bytes": 2071,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/vendor_temporal_v1/ModernTCN/ModernTCN-Long-term-forecasting/layers/RevIN.py",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\vendor_temporal_v1\\ModernTCN\\ModernTCN-Long-term-forecasting\\layers\\RevIN.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "486c3d24e2d776c066e21b6f57b3bd556f501c210c58941de4d00a0ca3484c6b"
+    },
+    {
+      "bytes": 18476,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/vendor_temporal_v1/ModernTCN/ModernTCN-Long-term-forecasting/models/ModernTCN.py",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\vendor_temporal_v1\\ModernTCN\\ModernTCN-Long-term-forecasting\\models\\ModernTCN.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "daf74722e40d928e5ed6bc871b528a5d5d2c9090f30cafb89110cc88dc60fa30"
+    },
+    {
+      "bytes": 2803,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/vendor_temporal_v1/ModernTCN/ModernTCN-Long-term-forecasting/models/ModernTCN_Layer.py",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\vendor_temporal_v1\\ModernTCN\\ModernTCN-Long-term-forecasting\\models\\ModernTCN_Layer.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "b2291534c6a11ebd80882bed89f7cf8c76c721b8e0495294659f2c5b0fe88cea"
+    },
+    {
+      "bytes": 108,
+      "cohort_source": "MAIN_core",
+      "destination": "03_代码/主实验/MAIN_core/vendor_temporal_v1/ModernTCN/requirements.txt",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MAIN_L96_SINGLE_SEED_20261009\\actual_exports\\MAIN240_COMPLETE_SOURCE_AND_EVIDENCE_20261009\\evidence\\vendor_temporal_v1\\ModernTCN\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "210cb0d6c0635352bb81fbe8f731c43b23a8b0576687d948e897caac327223bf"
+    },
+    {
+      "bytes": 30327,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/ITSMIXER_MINIMUM6_CONFIG_RECIPE_PENDING.json",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\ITSMIXER_MINIMUM6_CONFIG_RECIPE_PENDING.json",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "20fe4ad2a0db147127056e24298bb874e3e1c882d35b22259c41a46aff7a4683"
+    },
+    {
+      "bytes": 101127,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/ITSMIXER_REMAINING18_CONFIG_RECIPE_PENDING.json",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\ITSMIXER_REMAINING18_CONFIG_RECIPE_PENDING.json",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "8aaf21f06ada391cd21e9670b87c62c1cfd4f280a06895f4a0fc621673e649f2"
+    },
+    {
+      "bytes": 8973,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/ITSMixer_ECL192_author_exact.py",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\ITSMixer_ECL192_author_exact.py",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "cad8ec381697edc070dd263b764f64be3854263249c127efad245c9ed7d5707d"
+    },
+    {
+      "bytes": 8975,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/ITSMixer_ECL336_author_exact.py",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\ITSMixer_ECL336_author_exact.py",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "1c0bc5d9e563db2883a8beb756b1a59c3add943fdde48d863f631eee1778b643"
+    },
+    {
+      "bytes": 10215,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/ITSMixer_ECL720_author_exact.py",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\ITSMixer_ECL720_author_exact.py",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "c2db425241bb538d56f487b128bf0a674c5f81334b2574b287c81c561aebbac5"
+    },
+    {
+      "bytes": 8971,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/ITSMixer_ECL96_author_exact.py",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\ITSMixer_ECL96_author_exact.py",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "17e2b015e82ac6384d3d34e0f686573c68a4a4e72a75edf1d9ae21f5c1ce565f"
+    },
+    {
+      "bytes": 1068,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/LICENSE.ITSMixer",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\LICENSE.ITSMixer",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "f800a5224b4dc15741d00b8f24a5504c171c89cc73d0395afa2a69fe5760be60"
+    },
+    {
+      "bytes": 5914,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/RootPurge_classes_exact.py",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\RootPurge_classes_exact.py",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "b83bc0b04f7ccde69e698c203d038f7df8c29080d739c94b6c378a562c85b285"
+    },
+    {
+      "bytes": 6262,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/itsmixer18_protocol.py",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\itsmixer18_protocol.py",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "bee09024cd6eefef24f579a75d6b277c02244e5499c397134c7792e0389c54d4"
+    },
+    {
+      "bytes": 11072,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/itsmixer18_science_kernel.py",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\itsmixer18_science_kernel.py",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "b5005325b1fe10ec4ba3547e8c45201fe91e72864846423a6166f21606c5975e"
+    },
+    {
+      "bytes": 8657,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/itsmixer6_protocol.py",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\itsmixer6_protocol.py",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "bcff27f7c192eedc897aade99add0f6d5b340cbf0d51a0b193e0df0551ab68c8"
+    },
+    {
+      "bytes": 10661,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/itsmixer6_science_kernel.py",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\itsmixer6_science_kernel.py",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "183a32d00c3177f078adf89fdc40fd26d01f16fda14779a74c26dbb510a3413a"
+    },
+    {
+      "bytes": 15427,
+      "cohort_source": "RootPurge_ITSMixer",
+      "destination": "03_代码/主实验/RootPurge_ITSMixer/once48_common_eval.py",
+      "models": [
+        "RootPurgeLinear",
+        "ITSMixer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_ROOT_ITSMIXER_ONCE48_ORIGINAL_NPZ_SCHEMA_SOURCE_PENDING_20261012\\once48_common_eval.py",
+      "role": "model_kernel_training_protocol_or_test_evaluator",
+      "sha256": "7be5f6c3a7fba623123e3d2fae1c082b3f994da048e8c41489846ca5bc2e2d9c"
+    },
+    {
+      "bytes": 5914,
+      "cohort_source": "RootPurge_training",
+      "destination": "03_代码/主实验/RootPurge_training/RootPurge_classes_exact.py",
+      "models": [
+        "RootPurgeLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_PILOT_20261011\\source_qa_package\\RootPurge_classes_exact.py",
+      "role": "local_RootPurge_import_dependency",
+      "sha256": "b83bc0b04f7ccde69e698c203d038f7df8c29080d739c94b6c378a562c85b285"
+    },
+    {
+      "bytes": 6939,
+      "cohort_source": "RootPurge_training",
+      "destination": "03_代码/主实验/RootPurge_training/trainval_runtime.py",
+      "models": [
+        "RootPurgeLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\MODELS2026_PILOT_20261011\\source_qa_package\\trainval_runtime.py",
+      "role": "actual_shared_training_implementation_RootPurge_branch",
+      "sha256": "1f7efac03d29bde9b2ee8ffdcfd0b18f7c4cd9a03668fb834453a3aa833a6d5e"
+    },
+    {
+      "bytes": 15736,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/core_utils.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\core_utils.py",
+      "role": "actual_training_data_loader_or_model_adapter",
+      "sha256": "dd389b075e7295999de49fb9acc0d6cf8541602e89e1782ae6a8bbcb5fffadc0"
+    },
+    {
+      "bytes": 11748,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/frozen_sources/adapters/lightweight_adapter.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\frozen_sources\\adapters\\lightweight_adapter.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "5b1ce2c98f749c9dbac07dff4c7b634ec8e4e82597e73f28508a982201937520"
+    },
+    {
+      "bytes": 8959,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/frozen_sources/adapters/recent_adapter.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\frozen_sources\\adapters\\recent_adapter.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "5fd58f550d875618c28aabf145510dca2d5f9cc51f009de52bec971ea11660fe"
+    },
+    {
+      "bytes": 5478,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/frozen_sources/adapters/temporal_adapter.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\frozen_sources\\adapters\\temporal_adapter.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "ca8d21d6a2fbe786207e8ce79b1fb02d0f523b816219878a952680c4215ecc7d"
+    },
+    {
+      "bytes": 10157,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/frozen_sources/ours/i1_common_contrast.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\frozen_sources\\ours\\i1_common_contrast.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a"
+    },
+    {
+      "bytes": 8364,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/frozen_sources/ours/i1_context_v2.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\frozen_sources\\ours\\i1_context_v2.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44"
+    },
+    {
+      "bytes": 19418,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/frozen_sources/ours/i2_curvature.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\frozen_sources\\ours\\i2_curvature.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf"
+    },
+    {
+      "bytes": 6391,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/frozen_sources/ours/i2_curvature_stable.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\frozen_sources\\ours\\i2_curvature_stable.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3"
+    },
+    {
+      "bytes": 5646,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/frozen_sources/ours/i3_response_residual_exchange.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\frozen_sources\\ours\\i3_response_residual_exchange.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760"
+    },
+    {
+      "bytes": 8480,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/frozen_sources/ours/models.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\frozen_sources\\ours\\models.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0"
+    },
+    {
+      "bytes": 10712,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/frozen_sources/ours/train.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\frozen_sources\\ours\\train.py",
+      "role": "frozen_model_or_adapter",
+      "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0"
+    },
+    {
+      "bytes": 6252,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/models_adapter.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\models_adapter.py",
+      "role": "actual_training_data_loader_or_model_adapter",
+      "sha256": "7373e173d7a7466be92494761f738382063c47380d5a50531093a09e6f9dc44a"
+    },
+    {
+      "bytes": 11438,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/run_train.py",
+      "models": [
+        "OURS",
+        "DLinear",
+        "SparseTSF",
+        "ModernTCN",
+        "MixLinear",
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\run_train.py",
+      "role": "actual_training_data_loader_or_model_adapter",
+      "sha256": "21440300933ee41c0e7e0a4b8a277f63d1e60cb43800ae6089e4c0020454a968"
+    },
+    {
+      "bytes": 11399,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/lightweight/DLinear/LICENSE",
+      "models": [
+        "DLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\lightweight\\DLinear\\LICENSE",
+      "role": "license_or_declared_dependencies",
+      "sha256": "195440db73029b048f34f3a8509add1611d6608e1edafb766eb398a65300f7a2"
+    },
+    {
+      "bytes": 3661,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/lightweight/DLinear/models/DLinear.py",
+      "models": [
+        "DLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\lightweight\\DLinear\\models\\DLinear.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "0893b53cb6473d6bdca7aeca514cb3ee12efa6df227c29c4469571c9711451cc"
+    },
+    {
+      "bytes": 49,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/lightweight/DLinear/requirements.txt",
+      "models": [
+        "DLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\lightweight\\DLinear\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "1d0c070dc34b790d124e137e27e7e75b39509643075455432355f5c37440d6cc"
+    },
+    {
+      "bytes": 11324,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/lightweight/SparseTSF/LICENSE",
+      "models": [
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\lightweight\\SparseTSF\\LICENSE",
+      "role": "license_or_declared_dependencies",
+      "sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a"
+    },
+    {
+      "bytes": 6572,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/lightweight/SparseTSF/layers/Embed.py",
+      "models": [
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\lightweight\\SparseTSF\\layers\\Embed.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "3743a14dd505f9caafb512727b10bec2d4a84d84cacc6f8936f33a5071e2a0a2"
+    },
+    {
+      "bytes": 2054,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/lightweight/SparseTSF/models/SparseTSF.py",
+      "models": [
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\lightweight\\SparseTSF\\models\\SparseTSF.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "7f4afe758bd7ad71b939b88e633acd271f275f4e85dd73b724233c7b1a041948"
+    },
+    {
+      "bytes": 42,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/lightweight/SparseTSF/requirements.txt",
+      "models": [
+        "SparseTSF"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\lightweight\\SparseTSF\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "ea9503aa165c49538bb8ca976dda681cce00d576c6d2f02ad26ab3ed468c081c"
+    },
+    {
+      "bytes": 6572,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/recent/MixLinear/layers/Embed.py",
+      "models": [
+        "MixLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\recent\\MixLinear\\layers\\Embed.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "3743a14dd505f9caafb512727b10bec2d4a84d84cacc6f8936f33a5071e2a0a2"
+    },
+    {
+      "bytes": 3411,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/recent/MixLinear/models/MixLinear.py",
+      "models": [
+        "MixLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\recent\\MixLinear\\models\\MixLinear.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "6546c25174d09b4028d6b9b760e3841ae7a77c5ec42c1b5345883320777221b9"
+    },
+    {
+      "bytes": 55,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/recent/MixLinear/requirements.txt",
+      "models": [
+        "MixLinear"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\recent\\MixLinear\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "e6d58ca561ff53dd76799cf1ecea2fd7545e73545c9459ccfa06e4dda24bab1f"
+    },
+    {
+      "bytes": 1084,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/recent/PhaseFormer_TSL/LICENSE",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\recent\\PhaseFormer_TSL\\LICENSE",
+      "role": "license_or_declared_dependencies",
+      "sha256": "8a6caa178ea3f33ebff5d7bb5558628cf5b423305dc30d3630f86564c7db94a2"
+    },
+    {
+      "bytes": 10862,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/recent/PhaseFormer_TSL/layers/SelfAttention_Family.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\recent\\PhaseFormer_TSL\\layers\\SelfAttention_Family.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "bf7a4cecc31a360a6ee870325af53d77607b1d682eadb337d547a662d677531c"
+    },
+    {
+      "bytes": 0,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/recent/PhaseFormer_TSL/layers/__init__.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\recent\\PhaseFormer_TSL\\layers\\__init__.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 21884,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/recent/PhaseFormer_TSL/models/PhaseFormer.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\recent\\PhaseFormer_TSL\\models\\PhaseFormer.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "1d19a3662c8badf2c009f7e1d7801b86f175207f05ccfa5f32c497dffd6a0a2e"
+    },
+    {
+      "bytes": 0,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/recent/PhaseFormer_TSL/models/__init__.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\recent\\PhaseFormer_TSL\\models\\__init__.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 196,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/recent/PhaseFormer_TSL/requirements.txt",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\recent\\PhaseFormer_TSL\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "7fdd27381ad5bc07c08b71036498f70275f98a7eca52948700e78db94dd43b12"
+    },
+    {
+      "bytes": 0,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/recent/PhaseFormer_TSL/utils/__init__.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\recent\\PhaseFormer_TSL\\utils\\__init__.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 832,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/recent/PhaseFormer_TSL/utils/masking.py",
+      "models": [
+        "PhaseFormer"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\recent\\PhaseFormer_TSL\\utils\\masking.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "02f453e52cfaec65e34132923add80e7132f188706680fa86d7bd884976e09ef"
+    },
+    {
+      "bytes": 1085,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/temporal/ModernTCN/LICENSE",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\temporal\\ModernTCN\\LICENSE",
+      "role": "license_or_declared_dependencies",
+      "sha256": "3f320fee174a7b89f06e7b1ee02f3f70ce0e0d90fd565f35defb1e9cf8bb3e1f"
+    },
+    {
+      "bytes": 2071,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/temporal/ModernTCN/ModernTCN-Long-term-forecasting/layers/RevIN.py",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\temporal\\ModernTCN\\ModernTCN-Long-term-forecasting\\layers\\RevIN.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "486c3d24e2d776c066e21b6f57b3bd556f501c210c58941de4d00a0ca3484c6b"
+    },
+    {
+      "bytes": 18476,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/temporal/ModernTCN/ModernTCN-Long-term-forecasting/models/ModernTCN.py",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\temporal\\ModernTCN\\ModernTCN-Long-term-forecasting\\models\\ModernTCN.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "daf74722e40d928e5ed6bc871b528a5d5d2c9090f30cafb89110cc88dc60fa30"
+    },
+    {
+      "bytes": 2803,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/temporal/ModernTCN/ModernTCN-Long-term-forecasting/models/ModernTCN_Layer.py",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\temporal\\ModernTCN\\ModernTCN-Long-term-forecasting\\models\\ModernTCN_Layer.py",
+      "role": "model_kernel_or_import_dependency",
+      "sha256": "b2291534c6a11ebd80882bed89f7cf8c76c721b8e0495294659f2c5b0fe88cea"
+    },
+    {
+      "bytes": 108,
+      "cohort_source": "Solar_ADD3",
+      "destination": "03_代码/主实验/Solar_ADD3/vendor/temporal/ModernTCN/requirements.txt",
+      "models": [
+        "ModernTCN"
+      ],
+      "path": "D:\\AAA第五篇论文来咯\\main_experiments\\ADD3DATA_L96_SINGLE_SEED_20261010\\actual_exports\\ADD3DATA_COMPLETE_SOURCE_AND_EVIDENCE\\evidence\\vendor\\temporal\\ModernTCN\\requirements.txt",
+      "role": "license_or_declared_dependencies",
+      "sha256": "210cb0d6c0635352bb81fbe8f731c43b23a8b0576687d948e897caac327223bf"
+    }
+  ],
+  "scientific_sources_modified": false,
+  "source_bytes": 1011016,
+  "source_count": 130
+}

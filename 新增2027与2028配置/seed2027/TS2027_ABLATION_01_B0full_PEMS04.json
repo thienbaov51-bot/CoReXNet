@@ -1,0 +1,19 @@
+{
+  "run_id": "TS2027_ABLATION_01_B0full_PEMS04",
+  "model": "B0",
+  "dataset": "PEMS04",
+  "phase": "full",
+  "seed": 2027,
+  "length": 96,
+  "horizon": 96,
+  "dim": 256,
+  "ffn_dim": 1024,
+  "layers": 2,
+  "dropout": 0.0,
+  "lr": 0.001,
+  "epochs": 30,
+  "patience": 7,
+  "amp": true,
+  "protocol_revision": "paper5_v1",
+  "evaluate_test": false
+}
