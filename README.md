@@ -27,6 +27,7 @@ The archive includes standardized arrays, normalization statistics, chronologica
 - Random seeds: 2026, 2027, 2028
 - Settings: `configs/corexnet.json` and `configs/baselines.json`
 - Model and training code: `original_core/`
+- Ablation experiments: [ablations/](ablations/README.md)
 - Reported per-seed results: `results/`
 
 To run another setting, change `--dataset`, `--horizon` and `--seed` in the command above. [Dataset and baseline sources](THIRD_PARTY_NOTICES.md).
