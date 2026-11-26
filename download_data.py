@@ -17,8 +17,8 @@ import zipfile
 
 HERE = Path(__file__).resolve().parent
 RELEASE_URL = "https://github.com/thienbaov51-bot/CoReXNet/releases/download/data-v1.0.0/CoReXNet_preprocessed_data_v1.zip"
-# Set this to the final published archive's SHA256 when fixing the release bytes.
-EXPECTED_ARCHIVE_SHA256 = None
+# Immutable public data-v1.0.0 release, verified after anonymous download.
+EXPECTED_ARCHIVE_SHA256 = "c5406d886a575bed7258c57137065190b72d20aadaffe333fc6116079cf80d3c"
 DATASETS = ("Electricity", "PEMS03", "PEMS04", "PEMS08", "Solar", "AEMO5")
 EXPECTED_MEMBERS = {f"{name}.npz" for name in DATASETS} | {
     f"{name}.metadata.json" for name in DATASETS
