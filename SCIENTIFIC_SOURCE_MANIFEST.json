@@ -1,0 +1,51 @@
+{
+  "status": "SCIENTIFIC_CORE_BYTE_PRESERVED",
+  "files": [
+    {
+      "path": "original_core/i1_common_contrast.py",
+      "sha256": "5007b0efca99968ae0620491824098d0f2bc66038e035610e009bf646f61314a",
+      "bytes": 10157,
+      "source_group": "2026 main experiment OURS, byte-preserved scientific source"
+    },
+    {
+      "path": "original_core/i1_context_v2.py",
+      "sha256": "c7f1afecde560b707923a0a10744507e40c3cc5dff46bea968d441ed3d83ba44",
+      "bytes": 8364,
+      "source_group": "2026 main experiment OURS, byte-preserved scientific source"
+    },
+    {
+      "path": "original_core/i2_curvature.py",
+      "sha256": "85ba30346ebf7041711f463bb3289fe278b79bd0e480baf857ea5ec844b0a6cf",
+      "bytes": 19418,
+      "source_group": "2026 main experiment OURS, byte-preserved scientific source"
+    },
+    {
+      "path": "original_core/i2_curvature_stable.py",
+      "sha256": "1dd50b2e13f3a2c9da566faabe2b2161efe8cb9b2e0f099b8182c11f7e2725d3",
+      "bytes": 6391,
+      "source_group": "2026 main experiment OURS, byte-preserved scientific source"
+    },
+    {
+      "path": "original_core/i3_response_residual_exchange.py",
+      "sha256": "5b4030bb5c9bb927c0775a748ec34c07f0653febd1bf2aa013f60c24cc834760",
+      "bytes": 5646,
+      "source_group": "2026 main experiment OURS, byte-preserved scientific source"
+    },
+    {
+      "path": "original_core/models.py",
+      "sha256": "09ea8f1a8e37ed94a0a0b79986c07d5fb8fa91faf62c411a6470926f49d155e0",
+      "bytes": 8480,
+      "source_group": "2026 main experiment OURS, byte-preserved scientific source"
+    },
+    {
+      "path": "original_core/train.py",
+      "sha256": "cfa76aa86bafcb35d6ba7e1ab5ae00f3ca81022d29f3894fa50c3c36092370a0",
+      "bytes": 10712,
+      "source_group": "2026 main experiment OURS, byte-preserved scientific source"
+    }
+  ],
+  "frozen_recipe_checks": 72,
+  "shared_config": "configs/corexnet.json",
+  "public_entry": "run.py",
+  "public_loader_note": "original_core/train.py loads raw float32 data from the already prepared NPZ and applies its original train-only scaler; normalized_data is supplied for direct third-party use and validation, never standardized twice"
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+runs/
+data/processed/
+data/raw/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+.venv/
